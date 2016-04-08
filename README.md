@@ -33,3 +33,8 @@
 - As the user is typing a question on Piazza, display related questions
 - Implement in Javascript through a chrome extension
 
+##### Input Data
+Our project requires large amounts of Piazza data in order to gather input from the crowd. The Piazza team gave us access to dump files from the last few semesters of CIS 120, 121, and 160. We will then parse this data using Python or Bash in order to get the plaintext questions that have been asked for each course and each assignment in that course. We will upload only the question's text onto the crowdsourcing platorm; no other information from the post will be shared with the crowdworkers.
+
+##### Quality Control and Aggregation
+We will use gold standard questions within our HIT to ensure we are getting quality results from the crowdworkers. After the results are collected, we will check each worker's answers to the gold standard questions in order to decide whether or not to trust that worker's judgements. Sample code for aggregation and QC are included in the repo.
