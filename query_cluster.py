@@ -12,6 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.externals import joblib
 from sklearn.cluster import KMeans
 
+os.system('clear')
 
 json_data = open(sys.argv[1]).read()
 data = json.loads(json_data)
