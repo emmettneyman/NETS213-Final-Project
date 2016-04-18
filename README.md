@@ -38,3 +38,11 @@ Our project requires large amounts of Piazza data in order to gather input from 
 
 ##### Quality Control and Aggregation
 We will use gold standard questions within our HIT to ensure we are getting quality results from the crowdworkers. After the results are collected, we will check each worker's answers to the gold standard questions in order to decide whether or not to trust that worker's judgements. Sample code for aggregation and QC are included in the repo.
+
+##### Step by Step Instructions for the User
+Our final product involves using a machine learning clustering algorithm to provide similar questions (and their answers) to the question that a student types in on Piazza.
+### The First Crowdsourcing Aspect
+When a person types in a question that they want to ask on Piazza, our clustering algorithm will suggest a list of similar questions. The user will then select the questions that they think are indeed similar. This allows us to passively collect input from the crowd.
+
+### The Second Crowdsourcing Aspect
+After the user selects the similar questions from the suggested questions, the unselected questions (along with the user's inputted question) will be sent to a crowdworking platform to be evaluated by workers. The workers will decide whether or not the unselected questions are similar to the user's question; for each pair, they will answer either yes or no. Then we wiill compile the results from the the crowdsourcing platform and feed the results back into our clustering algorithm in order to provide better suggested questions for future Piazza users.
