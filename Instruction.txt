@@ -1,5 +1,5 @@
 Step by Step Instructions:
-Task: https://tasks.crowdflower.com/channels/cf_internal/jobs/897977/work?secret=S56Q6rICl2KpUJTBnXcRajB0Y4amNz3GlD1onvCW9D9v
+Task: https://tasks.crowdflower.com/channels/cf_internal/jobs/898007/work?secret=Bi8XxFFlj6pMlTtZ1ax6jioJhH02%2FNBYT%2FQzhgk02nDc
 Our final product involves using a machine learning clustering algorithm to provide similar questions to the question that a student types in on piazza.
 The first part of the crowdsourcing aspect:
 When a student types in a question that he/she wants to ask on piazza, our clustering algorithm will suggest him/her a list of questions. (This is where we obtain data from the crowd to do further analysis.)
