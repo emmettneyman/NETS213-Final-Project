@@ -1,10 +1,13 @@
 from __future__ import print_function
 import json
 import sys
+import csv
 import nltk
 import re
 import os
 import numpy as np
+import locale
+# locale._parse_localename('en.UTF-8')
 import pandas as pd
 from nltk.stem.snowball import SnowballStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -31,6 +34,7 @@ stopwords = nltk.corpus.stopwords.words('english')
 
 stemmer = SnowballStemmer("english")
 
+RESULTS_NUM_TO_DISPLAY = 5
 # here I define a tokenizer and stemmer which returns the set of stems in the text that it is passed
 
 def tokenize_and_stem(text):
@@ -153,4 +157,23 @@ os.system('clear')
 print("Your question was \n" + queryTitle + "\n-------------------\n" + queryBody)
 print("You are not as original as you may think...check out some similar questions below:\n")
 print("Matched words: " + ",".join(matchedCluster['words']) + '\n')
-print("Matched titles: " + ",".join(matchedCluster['titles']) + '\n')
+#print("Matched titles: " + ",".join(matchedCluster['titles']) + '\n')
+
+resultNum = 0
+questionsBeingDisplayed = []
+for title in matchedCluster['titles']:
+    if resultNum >= RESULTS_NUM_TO_DISPLAY:
+        break
+    print(str(resultNum + 1) + ": " + title + "\n" + output[title] + "\n")
+    questionsBeingDisplayed.append({'title': title, 'body': output[title]})
+    resultNum += 1
+selectedNum = raw_input("Enter the number of a question that is asking the most similar thing as your question or enter 0 if no question listed is similar to what your question is asking: ")
+outputFile = open('queryClusterOutput.csv','w')
+outputWriter = csv.writer(outputFile)
+outputWriter.writerow(['user_question_title','user_question_body','user_selected_num','question_1_title','question_1_body','question_2_title','question_2_body','question_3_title','question_3_body','question_4_title','question_4_body','question_5_title','question_5_body'])
+outputRows = [queryTitle, queryBody, selectedNum]
+for question in questionsBeingDisplayed:
+    outputRows.append(question['title'])
+    outputRows.append(question['body'].encode('utf8'))
+outputWriter.writerow(outputRows)
+outputFile.close()
