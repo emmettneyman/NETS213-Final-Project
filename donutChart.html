@@ -7,16 +7,16 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Result', 'Number of Hits with Value'],
-          ['0',     66],
-          ['1',      13],
-          ['2',  7],
-          ['3', 3],
-          ['4',    2],
-	  ['5',    2]
+          ['Query is similar to option 1',      13],
+          ['Query is similar to option 2',  7],
+          ['Query is similar to option 3', 3],
+          ['Query is similar to option 4',    2],
+	  ['Query is similar to option 5',    2],
+	  ['0 - None of the above',     66]
         ]);
 
         var options = {
-          title: 'HIT Results',
+          title: 'HIT Results:',
           pieHole: 0.4,
         };
 
