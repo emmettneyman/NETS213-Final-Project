@@ -1,0 +1,516 @@
+"HITId","HITTypeId","Title","Description","Keywords","Reward","CreationTime","MaxAssignments","RequesterAnnotation","AssignmentDurationInSeconds","AutoApprovalDelayInSeconds","Expiration","NumberOfSimilarHITs","LifetimeInSeconds","AssignmentId","WorkerId","AssignmentStatus","AcceptTime","SubmitTime","AutoApprovalTime","ApprovalTime","RejectionTime","RequesterFeedback","WorkTimeInSeconds","LifetimeApprovalRate","Last30DaysApprovalRate","Last7DaysApprovalRate","Input.user_question_body","Answer.WritingTexts","Approve","Reject"
+"366FYU4PTGF2ZMCVNYUAIVR7JZGKEM","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","31QNSG6A5SJZHQTEH3O3A0LJTHK78F","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:30:08 PDT 2016","Wed Apr 27 04:30:34 PDT 2016","Wed Apr 27 12:30:34 PDT 2016","","","","26","0% (0/0)","0% (0/0)","0% (0/0)","Following the bash commands given on the hw page leaves us with a file of the form, 
+1, articleurl
+is this the format needed? There are no articles that were labeled as not gun related by our classifier in our sample.txt. Also do we need to have all of the articles we found classified on mturk or only 500?","Taking after the bash summons given on the hw page abandons us with a document of the structure, 1, articleurl is it true that this is the organization required? There are no articles that were marked as not firearm related by our classifier in our sample.txt. Likewise do we need the greater part of the articles we discovered ordered on mturk or just 500?"
+"36JW4WBR06A33ABJCOBJNLWF3JRFHV","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3V0Z7YWSIZQQ61SLJKII6NOJTZZV2S","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:35:58 PDT 2016","Wed Apr 27 04:36:38 PDT 2016","Wed Apr 27 12:36:38 PDT 2016","","","","40","0% (0/0)","0% (0/0)","0% (0/0)","<p>I'm running the get_clean_text function and it has almost taken me 2 hours at this point (on my local computer, not biglab). Is it stuck somewhere? Not sure what to think. I feel as if the character decoding shouldn't be causing this.  <img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/ids2xp8h6vn62d/ikjdw92f8b8r/Screen_Shot_20160212_at_2.37.58_AM.png"" /></p>","I'm running the get_clean_text capacity and it has verging on taken me 2 hours as of right now (on my nearby PC, not biglab). Is it stuck some place? Not certain what to think. I feel as though the character unraveling shouldn't be bringing about this."
+"3FO95NVK5CQPW9U8EDNC8OH0FIIRSM","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3RYC5T2D74JU51CACYOK1379J3EPRG","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:31:23 PDT 2016","Wed Apr 27 04:32:48 PDT 2016","Wed Apr 27 12:32:48 PDT 2016","","","","85","0% (0/0)","0% (0/0)","0% (0/0)","<p>The questionnaire says to "";Find an example of an article that the classifier wrongly classifies as gun violence, but which is actually not gun violence (a "";false positive"";),""; and it looks like there's a function stub, <tt>get_misclassified_examples</tt>, that we're supposed to fill out to do this. However, I'm having trouble figuring out how exactly we can get the misclassified examples using just the LogisticRegression object    we can test the overall accuracy using the <tt>score()</tt> function, but I don't see any functions that would tell us whether or not something is right for a specific example. Are we supposed to use the  LogisticRegression functions to do this question?</p>","The survey says to "";Find a case of an article that the classifier wrongly orders as weapon viciousness, yet which is really not firearm brutality (a "";false positive"";),""; and it would appear that there's a capacity stub, get_misclassified_examples, that should round out. Notwithstanding, I'm experiencing difficulty making sense of how precisely we can get the misclassified cases utilizing only the LogisticRegression object we can test the general exactness utilizing the score() capacity, yet I don't see any capacities that would let us know regardless of whether something is a good fit for a particular illustration. Is it accurate to say that we should utilize the LogisticRegression capacities to do this inquiry?"
+"3BAWBGQGYLPV6IRXZUUBEUA7DAJV7X","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3RWE2M8QWI062MGY26SDDI1RAYDN0J","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:25:05 PDT 2016","Wed Apr 27 04:25:33 PDT 2016","Wed Apr 27 12:25:33 PDT 2016","","","","28","0% (0/0)","0% (0/0)","0% (0/0)","File "";predict_unlabelled.py"";, line 71, in 
+    clf = train_classifier(X,y) 
+  File "";predict_unlabelled.py"";, line 45, in train_classifier
+    clf.fit(X,y)
+  File "";/usr/lib64/python2.7/site-packages/sklearn/svm/base.py"";, line 687, in fit
+    (X.shape[0], y_ind.shape[0]))
+ValueError: X and y have incompatible shapes.
+X has 1 samples, but y has 71667.","Document "";predict_unlabelled.py"";, line 71, in clf = train_classifier(X,y) File "";predict_unlabelled.py"";, line 45, in train_classifier clf.fit(X,y) File "";/usr/lib64/python2.7/site-bundles/sklearn/svm/base.py"";, line 687, in fit (X.shape[0], y_ind.shape[0])) ValueError: X and y have contradictory shapes. X has 1 tests, yet y has 71667."
+"33Q5P9PUSPCIRJR3R8RPFMFH2WFZCT","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3Z7EFSHGNA4V88PIGS866LUQL1KXC6","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:30:35 PDT 2016","Wed Apr 27 04:30:56 PDT 2016","Wed Apr 27 12:30:56 PDT 2016","","","","21","0% (0/0)","0% (0/0)","0% (0/0)","<p>-3 A blank text file was submitted in lieu of code or diagrams. -0.5 features and dimensions of X not listed or incorrect. Most of questionnaire is blank. -1</p>
+<p></p>
+<p>I understand the last two deductions, but I am having trouble understanding where the -3 points came from.</p>
+<p></p>
+<ul><li>1 points - Create a rule based classifier</li><li>1 points - Create a decision tree and a decision tree diagram</li><li>1 points - Implement a statistical unigram model</li></ul>
+<p></p>
+<p>The rule based classifier is in the code under than method.</p>
+<p>The decision tree and diagram is submitted as decision-tree.png and rule-based-tree.png</p>
+<p>The unigram is implemented in get_features()</p>","- 3 A clear content record was submitted in lieu of code or outlines. - 0.5 components and measurements of X not recorded or erroneous. A large portion of poll is clear. - 1 
+
+I comprehend the last two derivations, yet I am experiencing difficulty understanding where the - 3 focuses originated from. 
+
+1 focuses - Create a standard based classifier 
+
+1 focuses - Create a choice tree and a choice tree chart 
+
+1 focuses - Implement a factual unigram model 
+
+The tenet based classifier is in the code under than technique. 
+
+The choice tree and graph is submitted as choice tree.png and guideline based-tree.png 
+
+The unigram is actualized in get_features()"
+"38O9DZ0A62D35RFQSA586BD0L1626X","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3MHW492WW13GD5WET212LW2HZ4GMVA","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:23:57 PDT 2016","Wed Apr 27 04:25:05 PDT 2016","Wed Apr 27 12:25:05 PDT 2016","","","","68","0% (0/0)","0% (0/0)","0% (0/0)","<p>The example of the HIT posted on the assignment shows not just the URL and text, but also the date published and  title of the article. But the instructions of the assignment say to use the URL and text file we made as the data for this HIT (which does not contain published date or title). Thus, do we not need to copy the demo exactly and  ignore the extraction of the date and title? I am assuming  that those details are not even needed until the 2nd HIT we design.</p>","The case of the HIT posted on the task demonstrates the URL and content, as well as the date distributed and title of the article. However, the directions of the task say to utilize the URL and content document we made as the information for this HIT (which does not contain distributed date or title). In this manner, do we not have to duplicate the demo precisely and overlook the extraction of the date and title? I am expecting that those subtle elements are not in any case required until the second HIT we plan."
+"3O2Y2UIUCQKU50CRI9EG0DC7V0VKF4","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","39L1G8WVWRHZ5786G6CYI9MVA9T31N","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:30:57 PDT 2016","Wed Apr 27 04:31:22 PDT 2016","Wed Apr 27 12:31:22 PDT 2016","","","","25","0% (0/0)","0% (0/0)","0% (0/0)","
+Piazza is a Q&A platform designed to get you great answers from classmates and instructors fast. We've put together this list of tips you might find handy as you get started:
+
+1.  <b>Ask questions!</b>
+
+The best way to get answers is to ask questions! Ask questions on Piazza rather than emailing your teaching staff so everyone can benefit from the response (and so you can get answers from classmates who are up as late as you are).
+
+2.  <b>Edit questions and answers wiki-style.</b>
+
+Think of Piazza as a Q&A wiki for your class. Every question has just a single <b>students' answer</b> that students can edit collectively (and a single <b>instructors   answer</b> for instructors).
+
+3.  <b>Add a followup to comment or ask further questions.</b>
+
+To comment on or ask further questions about a post, start a <b>followup discussion</b>. Mark it resolved when the issue has been addressed, and add any relevant information back into the Q&A above.
+
+4.  <b>Go anonymous.</b>
+
+Shy? No problem. You can always opt to post or edit anonymously.
+
+5.  <b>Tag your posts.</b>
+
+It's far more convenient to find all posts about your Homework 3 or Midterm 1 when the posts are tagged. Type a before a key word to tag. Click a blue tag in a post or the question feed to filter for all posts that share that tag.
+
+6.  <b>Format code and equations.</b>
+
+Adding a code snippet? Click the <b>pre</b> or <b>tt</b> button in the question editor to add pre-formatted or inline teletype text. 
+Mathematical equation? Click the <b>Fx</b> button to access the LaTeX editor to build a nicely formatted equation.
+
+7.  <b>View and download class details and resources.</b>
+
+Click the <b>Course Page</b> button in your top bar to access the class syllabus, staff contact information, office hours details, and course resources  all in one place!
+
+
+Contact the Piazza Team anytime with questions or comments at <b>team@piazza.com</b>. We love feedback!","Piazza is a Q&A stage intended to get you incredible answers from colleagues and educators quick. We've assembled this rundown of tips you may discover helpful as you begin: 1. Make inquiries! The most ideal approach to get answers is to make inquiries! Make inquiries on Piazza instead of messaging your showing staff so everybody can profit by the reaction (thus you can get answers from schoolmates who are up as late as you seem to be). 2. Alter inquiries and answers wiki-style. Consider Piazza a Q&A wiki for your class. Each inquiry has only a solitary understudies' answer that understudies can alter all things considered (and a solitary educators answer for teachers). 3. Add a followup to remark or ask further inquiries. To remark on or get some information about a post, begin a followup exchange. Mark it determined when the issue has been tended to, and include any significant data once again into the Q&A above. 4. Go unknown. Modest? Forget about it. You can simply select to post or alter secretly. 5. Tag your posts. It's significantly more helpful to discover all posts about your Homework 3 or Midterm 1 when the posts are labeled. Sort a preceding a watchword to tag. Click a blue tag in a post or the inquiry food to channel for all posts that share that tag. 6. Position code and comparisons. Including a code scrap? Click the pre or tt catch in the inquiry editorial manager to include pre-arranged or inline print content. Numerical comparison? Click the Fx catch to get to the LaTeX supervisor to fabricate a pleasantly arranged comparison. 7. See and download class points of interest and assets. Click the Course Page catch in your top bar to get to the class syllabus, staff contact data, available time points of interest, and course assets all in one spot! Contact the Piazza Team whenever with inquiries or remarks at team@piazza.com. We adore input!"
+"3IZPORCT1FZ060GS3JBD4AAY672HRS","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","324G5B4FB4YHZ1OBMZBOHLF1AJ870S","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:25:35 PDT 2016","Wed Apr 27 04:26:03 PDT 2016","Wed Apr 27 12:26:03 PDT 2016","","","","28","0% (0/0)","0% (0/0)","0% (0/0)","<p></p><div>Please register to be a worker on Amazon Mechanical Turk TODAY at  <a href=""https://www.mturk.com/mturk/welcome"">https://www.mturk.com/mturk/welcome</a>  </div>
+<div>You will need an account to for the <a href=""http://crowdsourcing-class.org/assignment1.html"" target=""_blank"">first homework assignment</a>.   We will be doing a walk through on Friday, and it would be great if you have your account activated by then.   Typically it takes Amazon several days to activate workers accounts, so please create yours ASAP.</div>
+<div></div>
+<div>Note that all foreign students, and some domestic students had problems creating Mechanical Turk accounts last year.   If you have a problem, please try to sign up to be a Crowd Flower worker (also called a "";contributor"";). You can sign up here: <a href=""https://elite.crowdflower.com/?view=register"">https://elite.crowdflower.com/?view=register</a><a href=""https://elite.crowdflower.com/?view=register"" target=""_blank""></a></div>
+<div></div>
+<div>--CCB</div>","If it's not too much trouble register to be a laborer on Amazon Mechanical Turk TODAY at https://www.mturk.com/mturk/welcome 
+
+You will require a record to for the primary homework task. We will be doing a stroll through on Friday, and you should have your record actuated by then. Commonly it takes Amazon a few days to enact specialists accounts, so please make yours ASAP. 
+
+Note that every single outside understudy, and some household understudies had issues making Mechanical Turk accounts a year ago. On the off chance that you have an issue, please attempt to join to be a Crowd Flower laborer (likewise called a "";contributor"";). You can join here: https://elite.crowdflower.com/?view=register 
+
+- CCB"
+"3EPG8DX9LKG3EUGIPP6FAI7T0GMP5Q","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3FTYUGLFSVBWBHBMAIKMY8LOD2N5D5","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:28:13 PDT 2016","Wed Apr 27 04:29:17 PDT 2016","Wed Apr 27 12:29:17 PDT 2016","","","","64","0% (0/0)","0% (0/0)","0% (0/0)","<p>Hi, so I read though the other piazza post about how the statistical analysis takes a long time, but I am still having some trouble with my code.</p>
+<p></p>
+<p>I have already tried waiting 10-15 minutes and removing all stopwords, but for some reason the statistical analysis refuses to complete in a reasonable amount of time</p>
+<p></p>
+<p>Below is my code:</p>
+<pre>def isStopWord(word):
+	with open('stopwords.txt', 'r') as stopwords:
+		for line in stopwords:
+			if word in line:
+				return True
+		return False
+
+def get_features(X) : 
+	features = []
+	for x in X : 
+		f = {}
+		#TODO replace this dummy feature function with a unigram model, like we did in class
+		for word in x.split():
+			if isStopWord(word):
+				continue
+			if word in f:
+				f[word] = f[word] +; 1.0
+			else:
+				f[word] =  1.0
+		features.append(f)
+	return features</pre>
+<p>Not really sure what to do at this point because of this. Also might this be related to using the VM?</p>","Howdy, so I read however the other piazza post about how the measurable investigation takes quite a while, yet I am as yet experiencing some difficulty with my code. 
+
+I have effectively taken a stab at holding up 10-15 minutes and evacuating all stopwords, however for reasons unknown the factual examination declines to finish in a sensible measure of time 
+
+The following is my code: 
+
+def isStopWord(word): 
+
+with open('stopwords.txt', 'r') as stopwords: 
+
+for line in stopwords: 
+
+on the off chance that word in line: 
+
+return True 
+
+return False 
+
+def get_features(X) : 
+
+highlights = [] 
+
+for x in X : 
+
+f = {} 
+
+#TODO supplant this spurious element capacity with a unigram model, as we did in class 
+
+for word in x.split(): 
+
+on the off chance that isStopWord(word): 
+
+proceed 
+
+on the off chance that word in f: 
+
+f[word] = f[word] +; 1.0 
+
+else: 
+
+f[word] = 1.0 
+
+features.append(f) 
+
+return highlights 
+
+Not so much beyond any doubt what to do as of right now on account of this. Likewise may this be identified with utilizing the VM?"
+"36U4VBVNQO35BMMC3IICNPZO0F3RU2","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3WETL7AQWUYYTP9PHTEALZZCMPY355","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:32:57 PDT 2016","Wed Apr 27 04:35:57 PDT 2016","Wed Apr 27 12:35:57 PDT 2016","","","","180","0% (0/0)","0% (0/0)","0% (0/0)","<p></p><p>Here's a cool example of the interaction between crowdsourcing and machine learning, applied to poetry:</p>
+<p><a href=""http://motherboard.vice.com/read/how-machines-write-poetry"">http://motherboard.vice.com/read/how-machines-write-poetry</a><a href=""http://motherboard.vice.com/read/how-machines-write-poetry""></a></p>
+<p></p>
+<p>"";For an objective assessment of her program's work, Harmon recruited subjects from Amazon Mechanical Turk. In a pilot study, people read FIGURE8  s more complex sentences. But the task seemed to wear them out.   It became more of an English assignment, she  says. So for the  <a href=""http://axon.cs.byu.edu/ICCC2015proceedings/4.1Harmon.pdf"">study</a>  she presented at this year  s International Conference on Computational Creativity, Harmon restricted her program to simple sentences that fit certain patterns. It wasn  t FIGURE8  s most thrilling writing, but these shorter phrases would be easier for subjects to compare.</p>
+<p></p>
+<p>Each person read sets of five FIGURE8 sentences at a time. People ranked the similes for their clarity, as well as how enjoyable they were to read. Harmon then compared those ratings to scores the computer program had given itself for clarity and overall quality. Harmon found that her subjects   ratings were pretty close to how FIGURE8 rated itself. For example, humans and computer agreed that  <em>The queen stands like a strong castle</em>  was a good, clear simile. But they also agreed that  <em>It was her pearl, crumpling like a drowned corpse  </em>didn  t make much sense."";</p>","Here's a cool case of the connection amongst crowdsourcing and machine learning, connected to verse: 
+
+http://motherboard.vice.com/read/how-machines-compose verse 
+
+"";For a target appraisal of her system's work, Harmon enrolled subjects from Amazon Mechanical Turk. In a pilot study, individuals read FIGURE8 s more intricate sentences. In any case, the undertaking appeared to destroy them. It turned out to be a greater amount of an English task, she says. So for the study she exhibited at this year s International Conference on Computational Creativity, Harmon limited her project to straightforward sentences that fit certain examples. It wasn t FIGURE8 s most exciting written work, yet these shorter expressions would be less demanding for subjects to analyze. 
+
+Every individual read sets of five FIGURE8 sentences at once. Individuals positioned the comparisons for their clarity, and also that they were so pleasant to peruse. Harmon then contrasted those evaluations with scores the PC program had given itself for clarity and general quality. Harmon found that her subjects appraisals were quite near how FIGURE8 evaluated itself. For instance, people and PC concurred that The ruler stands like a solid manor was a decent, clear metaphor. Be that as it may, they likewise concurred that It was her pearl, folding like a suffocated carcass didn t bode well."";"
+"3BFF0DJK8X22CO70I2S783II33FTS1","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3DHE4R9OCX17O42QUPJW6ML96KSG25","AXI30LCLYYBTJ","Approved","Tue Apr 26 19:37:10 PDT 2016","Tue Apr 26 19:39:51 PDT 2016","Wed Apr 27 03:39:51 PDT 2016","2016-04-27 10:40:17 UTC","","","161","100% (2/2)","100% (2/2)","100% (2/2)","<p>When I try to submit the homework, it does this marvelous thing where it tells me that net213 is an invalid config file.</p>
+<p></p>
+<p>What to do now? Somewhat concerned.</p>
+<p></p>
+<p><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/hqh2r7yc6p926r/ikaaipxq9b3g/image.png"" /></p>","I am getting this strange error saying net123 is an invalid file when I try to submit the assignment. I'm a little worried, what do I do now?"
+"3BFF0DJK8X22CO70I2S783II33FTS1","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3PZDLQMM0UBU7SMLS3NDGV0U8S0C2R","AYZFD95XKXVZ4","Approved","Tue Apr 26 19:23:49 PDT 2016","Tue Apr 26 19:25:09 PDT 2016","Wed Apr 27 03:25:09 PDT 2016","2016-04-27 10:25:16 UTC","","","80","100% (5/5)","100% (5/5)","100% (5/5)","<p>When I try to submit the homework, it does this marvelous thing where it tells me that net213 is an invalid config file.</p>
+<p></p>
+<p>What to do now? Somewhat concerned.</p>
+<p></p>
+<p><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/hqh2r7yc6p926r/ikaaipxq9b3g/image.png"" /></p>","I'm concerned about an issue that I have when I try to send my homework. Attached is a screenshot that says net 213 is an invalid config file. Please advise."
+"3ODOP6T3ASAPQ4BC9MCT9DTMPA024C","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3HVVDCPGTFI1UUH37APYE913BTTYTB","AWPB6NLJY46J6","Approved","Tue Apr 26 19:07:22 PDT 2016","Tue Apr 26 19:08:11 PDT 2016","Wed Apr 27 03:08:11 PDT 2016","2016-04-27 10:10:16 UTC","","","49","100% (3/3)","100% (3/3)","100% (3/3)","<p>How can we find hourly wage through CrowdFlower? Do we need to estimate it or there is a section that gives a precise number?</p>","Can we find out the pay rate with CrowdFlower? Do we estimate the number or does it give us an accurate figure?"
+"3ODOP6T3ASAPQ4BC9MCT9DTMPA024C","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3WEV0KO0ONIXHJ9XMEXURJVGRMADSU","A2AEAGCGR9MF1E","Approved","Tue Apr 26 19:27:58 PDT 2016","Tue Apr 26 19:28:03 PDT 2016","Wed Apr 27 03:28:03 PDT 2016","2016-04-27 10:30:18 UTC","","","5","100% (4/4)","100% (4/4)","100% (4/4)","<p>How can we find hourly wage through CrowdFlower? Do we need to estimate it or there is a section that gives a precise number?</p>","Does CrowdFlower provide the precise hourly wages; do we have to estimate the hourly wages?"
+"3ZLW647WALL488S8987AZ81GBA423R","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3M23Y66PO3XYWAUICRPGLDLOA066SE","A26Y58YECZUZZG","Approved","Wed Apr 27 03:02:15 PDT 2016","Wed Apr 27 03:03:30 PDT 2016","Wed Apr 27 11:03:30 PDT 2016","2016-04-27 18:05:16 UTC","","","75","100% (2/2)","100% (2/2)","100% (2/2)","In hw5 we only had 2 workers judge each url so we cant really figure out a majority vote from our data. What do we do?","What should we do now that we only used two workers to judge URLs in HW5 but no longer have the ability to determine a majority vote?"
+"3ZLW647WALL488S8987AZ81GBA423R","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3QY7M81QH8CJCRVFQSL605UAOH47KO","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:21:48 PDT 2016","Tue Apr 26 22:22:25 PDT 2016","Wed Apr 27 06:22:25 PDT 2016","2016-04-27 13:25:19 UTC","","","37","100% (9/9)","100% (9/9)","100% (9/9)","In hw5 we only had 2 workers judge each url so we cant really figure out a majority vote from our data. What do we do?","In hw5, there weren't enough participants to form a majority vote."
+"3GITHABACYBBCCLIRRRP8MZMGRVN2S","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3A1PQ49WVI7EZFF5VR10M3N5TE21HJ","A109DH65MXHL0Q","Approved","Tue Apr 26 23:36:30 PDT 2016","Tue Apr 26 23:41:44 PDT 2016","Wed Apr 27 07:41:44 PDT 2016","2016-04-27 14:45:16 UTC","","","314","100% (12/12)","100% (12/12)","100% (12/12)","<p>I've already started my OH in the GRW bump space so feel free to come on by early if you'd like. I'll be here till 5 unless it get's crowded in which case find me near the study space next to the elevators on the 5th floor of Levine.</p>
+<p></p>","I have  already started my OH  in the GRW bump space so feel free  to come  as early as possible. I will be here till  5  unless  it is crowded in that case find me near the study space next to the elevators on the 5th floor of Levine."
+"3GITHABACYBBCCLIRRRP8MZMGRVN2S","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:24 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:24 PDT 2016","","","3RSDURM96BCZ5BZ6HF03FN128JGEYB","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:20:39 PDT 2016","Tue Apr 26 22:21:16 PDT 2016","Wed Apr 27 06:21:16 PDT 2016","2016-04-27 13:25:19 UTC","","","37","100% (9/9)","100% (9/9)","100% (9/9)","<p>I've already started my OH in the GRW bump space so feel free to come on by early if you'd like. I'll be here till 5 unless it get's crowded in which case find me near the study space next to the elevators on the 5th floor of Levine.</p>
+<p></p>","I'll be working on my OH in the GRW bump space until five. If it gets crowded I'll move to the study space by the elevators, 5th floor of Levine."
+"3MVY4USGB6DC3ARPOQT3UWG9SM0SIK","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3J4Q2Z4UTZTKD9UBB5DFO750GEDWQF","AOX14OUGGBMNF","Approved","Wed Apr 27 03:16:17 PDT 2016","Wed Apr 27 03:20:50 PDT 2016","Wed Apr 27 11:20:50 PDT 2016","2016-04-27 18:25:16 UTC","","","273","100% (2/2)","100% (2/2)","100% (2/2)","<p>I got .5 points off "";for not using the crawler to collect URLs in addition to the Bing API""; -- my collected URLs included URLs from the Gun Violence Archive, and I collected the rest using the Bing API.  </p>
+<p></p>
+<p>The instructions didn't specify that we necessarily needed to use other methods to get 2500 URLs. The homework says to "";turn in a list of at least 2,500 urls, including some crawled from the Gun Violence Archive and some obtained using the Bing API."";  </p>
+<p></p>
+<p>Am I understanding correctly why I got the points off? If so, I'm confused why I got points off given the instructions. Thank you!  </p>","Please explain why points were deducted from my assignment.  The instructions stated that I was to turn in a list of 2500 URLs including some from gun violence website and some from BING API.  I feel I did this.  The instructions did not indicate that I needed to use a crawler to collect URLs.  Please explain or consider whether this point deduction is appropriate."
+"3MVY4USGB6DC3ARPOQT3UWG9SM0SIK","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3TXMY6UCAFEBZBO6UEDECDYXOYXCQO","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:27:45 PDT 2016","Wed Apr 27 04:28:12 PDT 2016","Wed Apr 27 12:28:12 PDT 2016","","","","27","0% (0/0)","0% (0/0)","0% (0/0)","<p>I got .5 points off "";for not using the crawler to collect URLs in addition to the Bing API""; -- my collected URLs included URLs from the Gun Violence Archive, and I collected the rest using the Bing API.  </p>
+<p></p>
+<p>The instructions didn't specify that we necessarily needed to use other methods to get 2500 URLs. The homework says to "";turn in a list of at least 2,500 urls, including some crawled from the Gun Violence Archive and some obtained using the Bing API."";  </p>
+<p></p>
+<p>Am I understanding correctly why I got the points off? If so, I'm confused why I got points off given the instructions. Thank you!  </p>","I got .5 focuses off "";for not utilizing the crawler to gather URLs notwithstanding the Bing API""; - my gathered URLs included URLs from the Gun Violence Archive, and I gathered the rest utilizing the Bing API. 
+
+The guidelines didn't indicate that we fundamentally expected to utilize different techniques to get 2500 URLs. The homework says to "";turn in a rundown of no less than 2,500 urls, including some crept from the Gun Violence Archive and some acquired utilizing the Bing API.""; 
+
+Am I seeing accurately why I got the focuses off? Provided that this is true, I'm confounded why I got focuses off given the directions. Much obliged to you!"
+"3BFNCI9LYKGBU9PEFKO5VZIOMQQ73C","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3GNA64GUZFUQ0QFRF4Q6Y7SNWH3Q5M","A109DH65MXHL0Q","Approved","Tue Apr 26 23:53:43 PDT 2016","Tue Apr 26 23:58:50 PDT 2016","Wed Apr 27 07:58:50 PDT 2016","2016-04-27 15:00:16 UTC","","","307","100% (12/12)","100% (12/12)","100% (12/12)","<p>Hi everyone,</p>
+<p></p>
+<p>I'm looking for a partner to  collaborate with on upcoming assignments and/or the final project. E-mail me at <a href=""mailto:hcutler@;seas.upenn.edu"">hcutler@;seas.upenn.edu</a>  if you're interested!</p>
+<p></p>
+<p>Have a great day.</p>
+<p></p>
+<p>Hannah Cutler</p>
+<p>SEAS '17</p>","Hi  everyone
+I'm  looking  for  a partner  to  assist  me for  upcoming  assignments and  for  the final project. If  you are interested please email me at hcutler@;seas.upenn.edu.
+
+Have  a nice day
+Hannah Cutler
+SEAS'17"
+"3BFNCI9LYKGBU9PEFKO5VZIOMQQ73C","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3JWH6J9I9T37M9J80MP2XZXA12UNBP","A1QYU602WXPPMF","Approved","Tue Apr 26 20:11:14 PDT 2016","Tue Apr 26 20:12:01 PDT 2016","Wed Apr 27 04:12:01 PDT 2016","2016-04-27 11:15:19 UTC","","","47","100% (3/3)","100% (3/3)","100% (3/3)","<p>Hi everyone,</p>
+<p></p>
+<p>I'm looking for a partner to  collaborate with on upcoming assignments and/or the final project. E-mail me at <a href=""mailto:hcutler@;seas.upenn.edu"">hcutler@;seas.upenn.edu</a>  if you're interested!</p>
+<p></p>
+<p>Have a great day.</p>
+<p></p>
+<p>Hannah Cutler</p>
+<p>SEAS '17</p>","Looking for collaborator on assignments and/or final project.  Contact me at hcutler@;seas.upenn.edu if interested.
+
+Hannah Cutler"
+"34YWR3PJ2809SWW8EAAKN0X5L7KX01","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3HFNH7HEMI4OGN4BW09X24JCMQ9QGW","A1HN6NKUGXN3CV","Approved","Tue Apr 26 20:15:40 PDT 2016","Tue Apr 26 20:16:47 PDT 2016","Wed Apr 27 04:16:47 PDT 2016","2016-04-27 11:20:18 UTC","","","67","100% (1/1)","100% (1/1)","100% (1/1)","<p>One of the video links for the peer review assignment we are supposed to do is broken (iStockPhoto). What should I do?</p>","A link for the peer review assignment is broken, what should I do?"
+"34YWR3PJ2809SWW8EAAKN0X5L7KX01","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3OHYZ19UGDVKLKESVNPJHDD99U9OA5","AWPB6NLJY46J6","Approved","Tue Apr 26 19:06:19 PDT 2016","Tue Apr 26 19:06:55 PDT 2016","Wed Apr 27 03:06:55 PDT 2016","2016-04-27 10:10:16 UTC","","","36","100% (3/3)","100% (3/3)","100% (3/3)","<p>One of the video links for the peer review assignment we are supposed to do is broken (iStockPhoto). What should I do?</p>","The link for the video to the peer review assignment is broken. What should I do about it?"
+"3NFWQRSHVE4P3EG8SIT12LKEOJEFGW","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3TK8OJTYM2BMY8TRLITU20WC494PVM","A1CA46R2A6TV9W","Approved","Tue Apr 26 18:32:14 PDT 2016","Tue Apr 26 18:32:48 PDT 2016","Wed Apr 27 02:32:48 PDT 2016","2016-04-27 09:35:16 UTC","","","34","100% (2/2)","100% (2/2)","100% (2/2)","<p>In  the bing_api.py, I am trying to print out the xml response that we receive.</p>
+<p>Any ideas how to do this?</p>","Do you know how to print out the xml response received from the bing_api.py?"
+"3NFWQRSHVE4P3EG8SIT12LKEOJEFGW","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3VSOLARPKCZHUCB1KJRRXF4E8L593Q","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:17:56 PDT 2016","Tue Apr 26 22:18:09 PDT 2016","Wed Apr 27 06:18:09 PDT 2016","2016-04-27 13:20:19 UTC","","","13","100% (9/9)","100% (9/9)","100% (9/9)","<p>In  the bing_api.py, I am trying to print out the xml response that we receive.</p>
+<p>Any ideas how to do this?</p>","How do I print out an xml response in bing_api.py?"
+"3FSEU3P2NRQDVUUVZON7IEC4TGZRRY","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3MD9PLUKKJ4347MO6055JH4DS5ONZ3","A109DH65MXHL0Q","Approved","Tue Apr 26 23:21:25 PDT 2016","Tue Apr 26 23:25:21 PDT 2016","Wed Apr 27 07:25:21 PDT 2016","2016-04-27 14:30:16 UTC","","","236","100% (12/12)","100% (12/12)","100% (12/12)","<p>Hi Ellie, I recorded my video with Quicktime but there is no option for "";file save as""; and exporting does not seem to work. The progress bar is just stagnant. What should I do?</p>
+<p></p>
+<p>Thanks!</p>","Hi  Ellie, I  recorded my video with Quicktime  but there was no option for ""file save as"" and
+exporting was not working. The progress bar was stagnant. so what should I do?"
+"3FSEU3P2NRQDVUUVZON7IEC4TGZRRY","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3SLE99ER0O313YXR3A0WSM4JBGZBZR","AYZFD95XKXVZ4","Approved","Tue Apr 26 19:22:48 PDT 2016","Tue Apr 26 19:23:35 PDT 2016","Wed Apr 27 03:23:35 PDT 2016","2016-04-27 10:25:16 UTC","","","47","100% (5/5)","100% (5/5)","100% (5/5)","<p>Hi Ellie, I recorded my video with Quicktime but there is no option for "";file save as""; and exporting does not seem to work. The progress bar is just stagnant. What should I do?</p>
+<p></p>
+<p>Thanks!</p>","Hi Ellie, I recorded my video with Quicktime but there is no option for file save as. There is an export issue as the progress bar is stagnant. Please advise."
+"307FVKVSYR5WC58IFYTO54AU0QM74X","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3C2NJ6JBKB7DYWJCHTWRW6U67WON2U","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:19:25 PDT 2016","Tue Apr 26 23:23:26 PDT 2016","Wed Apr 27 07:23:26 PDT 2016","2016-04-27 14:25:16 UTC","","","241","100% (10/10)","100% (10/10)","100% (10/10)","Hi Ellie,
+
+It was stated in lecture today that you will be going over Assignment 7 during lecture on Friday. I can't make the lecture because I will be leaving for NY to get my passport renewed Friday morning. I was just wondering if this session would be recorded?","Hello, Ellie, during class today I heard you plan to go over Assignment 7 in class this Friday. I am going to New York to renew my passport that morning and will not be able to attend class. I was curious if this lecture will be available as a recording?"
+"307FVKVSYR5WC58IFYTO54AU0QM74X","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3KAKFY4PGVSA5D44ODX4A83HRBO3IZ","A2X1Y3BMUZP1M0","Approved","Tue Apr 26 20:37:42 PDT 2016","Tue Apr 26 20:39:29 PDT 2016","Wed Apr 27 04:39:29 PDT 2016","2016-04-27 11:40:19 UTC","","","107","100% (1/1)","100% (1/1)","100% (1/1)","Hi Ellie,
+
+It was stated in lecture today that you will be going over Assignment 7 during lecture on Friday. I can't make the lecture because I will be leaving for NY to get my passport renewed Friday morning. I was just wondering if this session would be recorded?","Hi Ellie, Friday you will go over Assignment 7 during lecture. I'll be in NY Friday morning getting my passport renewed so I won't be there. Will this session be recorded?"
+"3X55NP42EO600FTEB6IMVL99MKVP30","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3A4NIXBJ77PDH0KKFYZWYN4F866MLJ","A109DH65MXHL0Q","Approved","Tue Apr 26 23:41:51 PDT 2016","Tue Apr 26 23:44:52 PDT 2016","Wed Apr 27 07:44:52 PDT 2016","2016-04-27 14:45:16 UTC","","","181","100% (12/12)","100% (12/12)","100% (12/12)","<p>The slides for today's lecture topics are now online:</p>
+<p><a href=""http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf"">Machine Learning - part 2</a></p>
+<p><a href=""http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf"">The Amazon Mechanical Turk crowdsourcing platform</a></p>
+<p></p>
+<p>Please post any questions that you have about either topic to this thread.  </p>","The  slides  for  today,s topics on lecture are now online.
+Please  feel  free  to post any questions  that  you have  about  either  topic  in the thread."
+"3X55NP42EO600FTEB6IMVL99MKVP30","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3NL0RFNU0GDMT4DWOUNZXTA0XFOK4R","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:27:16 PDT 2016","Wed Apr 27 04:27:44 PDT 2016","Wed Apr 27 12:27:44 PDT 2016","","","","28","0% (0/0)","0% (0/0)","0% (0/0)","<p>The slides for today's lecture topics are now online:</p>
+<p><a href=""http://crowdsourcing-class.org/slides/machine-learning-part-2.pdf"">Machine Learning - part 2</a></p>
+<p><a href=""http://crowdsourcing-class.org/slides/amazon-mechanical-turk.pdf"">The Amazon Mechanical Turk crowdsourcing platform</a></p>
+<p></p>
+<p>Please post any questions that you have about either topic to this thread.  </p>","The slides throughout today's address themes are currently online: 
+
+Machine Learning - section 2 
+
+The Amazon Mechanical Turk crowdsourcing stage 
+
+If you don't mind post any inquiries that you have about either point to this string."
+"33Q5P9PUSPCIRJR3R8RPFMFH2WGCZ7","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3634BBTX0PK5LPKX88Y6BHSEU1YFIP","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:22:57 PDT 2016","Tue Apr 26 22:23:02 PDT 2016","Wed Apr 27 06:23:02 PDT 2016","2016-04-27 13:25:19 UTC","","","5","100% (9/9)","100% (9/9)","100% (9/9)","<p>When I use the command</p>
+<pre><code> cat articles_and_urls.txt | cut -f 1 &gt; urls.txt 
+ cat articles_and_urls.txt | cut -f 2 &gt; unlabelled_articles.txt </code></pre>
+<p></p>
+<p>I get this error</p>
+<p>cut: stdin: Illegal byte sequence</p>
+<p></p>
+<p>I tried looking it up but nothing has really helped.</p>","What is this error? It happens when I use this command."
+"33Q5P9PUSPCIRJR3R8RPFMFH2WGCZ7","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3MX2NQ3YCAKA9NG31ILYSFOGTKPX5P","A109DH65MXHL0Q","Approved","Tue Apr 26 23:16:04 PDT 2016","Tue Apr 26 23:19:49 PDT 2016","Wed Apr 27 07:19:49 PDT 2016","2016-04-27 14:20:16 UTC","","","225","100% (12/12)","100% (12/12)","100% (12/12)","<p>When I use the command</p>
+<pre><code> cat articles_and_urls.txt | cut -f 1 &gt; urls.txt 
+ cat articles_and_urls.txt | cut -f 2 &gt; unlabelled_articles.txt </code></pre>
+<p></p>
+<p>I get this error</p>
+<p>cut: stdin: Illegal byte sequence</p>
+<p></p>
+<p>I tried looking it up but nothing has really helped.</p>","When I  use this command  I  get the error cut:stdin:Illegal byte sequence.
+I  tried looking it up yet nothing really helped."
+"34ZTTGSNJXE0UZ1SQ4MDZK0TAL0HQR","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3FE7TXL1LJDY1TW4XLO800PBC7XQ26","A1CA46R2A6TV9W","Approved","Tue Apr 26 18:33:03 PDT 2016","Tue Apr 26 18:33:27 PDT 2016","Wed Apr 27 02:33:27 PDT 2016","2016-04-27 09:35:16 UTC","","","24","100% (2/2)","100% (2/2)","100% (2/2)","<p>I'm having trouble determining the xpath for the material we want. Can someone point me in the right direction on how we should go about doing this? Thank you!</p>","Can somebody show me how to determine the xpath for the material we want? Thanks!"
+"34ZTTGSNJXE0UZ1SQ4MDZK0TAL0HQR","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3I3WADAZ9RUNFE2B0RY292XNHG95OH","A2AEAGCGR9MF1E","Approved","Tue Apr 26 19:17:37 PDT 2016","Tue Apr 26 19:17:42 PDT 2016","Wed Apr 27 03:17:42 PDT 2016","2016-04-27 10:20:17 UTC","","","5","100% (4/4)","100% (4/4)","100% (4/4)","<p>I'm having trouble determining the xpath for the material we want. Can someone point me in the right direction on how we should go about doing this? Thank you!</p>","Can someone help me determine the xpath for the material we want?"
+"307L9TDWJYI0XUH1VR5URW4EM5VN33","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","34FNN24DCNZZ9S6D6E70BTVPVQJ5Y3","A109DH65MXHL0Q","Approved","Tue Apr 26 23:04:02 PDT 2016","Tue Apr 26 23:08:18 PDT 2016","Wed Apr 27 07:08:18 PDT 2016","2016-04-27 14:10:16 UTC","","","256","100% (12/12)","100% (12/12)","100% (12/12)","<p>I recorded my video with QuickTime but there is no option for "";file save as""; and exporting does not seem to work. The progress bar is just stagnant.  Has anyone else had this problem?</p>","As  I  was recording my video with quick time and there was no option for ""file save as"" and
+exporting was not working. The progress bar was stagnant. Does anyone else had this problem?"
+"307L9TDWJYI0XUH1VR5URW4EM5VN33","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3BEFOD78W7JHJSDZ960FC624MK94M6","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:16:02 PDT 2016","Tue Apr 26 22:16:33 PDT 2016","Wed Apr 27 06:16:33 PDT 2016","2016-04-27 13:20:19 UTC","","","31","100% (9/9)","100% (9/9)","100% (9/9)","<p>I recorded my video with QuickTime but there is no option for "";file save as""; and exporting does not seem to work. The progress bar is just stagnant.  Has anyone else had this problem?</p>","How do I save or export a video with Quicktime?"
+"3G57RS03HHV7MNFCNRV3E5Z0P6V25H","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3EICBYG645MUDOKTZOT5FCMBA3WJCV","A2M4YIC3XU2693","Approved","Tue Apr 26 23:10:58 PDT 2016","Tue Apr 26 23:14:31 PDT 2016","Wed Apr 27 07:14:31 PDT 2016","2016-04-27 14:15:16 UTC","","","213","100% (1/1)","100% (1/1)","100% (1/1)","<p>Any idea why this may be happening? I'm passing in two files to the command line.  </p>
+<p></p>
+<p><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/ids2xp8h6vn62d/im31vxiahonb/Screen_Shot_20160322_at_2.36.08_AM.png"" /><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/ids2xp8h6vn62d/im31w6viylwz/Screen_Shot_20160322_at_2.35.49_AM.png"" /></p>","Can you tell me why I am having problems in passing two files to the command line?"
+"3G57RS03HHV7MNFCNRV3E5Z0P6V25H","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3WI0P0II62ILG49K7PXP19QK5K3DRI","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:23:53 PDT 2016","Tue Apr 26 23:25:34 PDT 2016","Wed Apr 27 07:25:34 PDT 2016","2016-04-27 14:30:16 UTC","","","101","100% (10/10)","100% (10/10)","100% (10/10)","<p>Any idea why this may be happening? I'm passing in two files to the command line.  </p>
+<p></p>
+<p><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/ids2xp8h6vn62d/im31vxiahonb/Screen_Shot_20160322_at_2.36.08_AM.png"" /><img src=""https://d1b10bmlvqabco.cloudfront.net/attach/ijblb017ius5zp/ids2xp8h6vn62d/im31w6viylwz/Screen_Shot_20160322_at_2.35.49_AM.png"" /></p>","I am putting two files into the command line, do you know why I am encountering this?"
+"3YD0MU1NC2RBEUOZOZ3FI7WUS0IA7B","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3R08VXYT7DLA7RPWF649OGO5BOFW7B","A109DH65MXHL0Q","Approved","Tue Apr 26 23:26:40 PDT 2016","Tue Apr 26 23:32:06 PDT 2016","Wed Apr 27 07:32:06 PDT 2016","2016-04-27 14:35:16 UTC","","","326","100% (12/12)","100% (12/12)","100% (12/12)","I have generated classified_predictions but the number of lines is not the same as in articles as thy say it should in part 5. Urls.txt and classified_predictions do have the same number of lines. Im not sure whats wrong?","I  had generated classified predictions but the number of lines were not the same as in the articles as it should be in part 5. Urls .txt and classified predictions does not have same number of lines. yet Im  not sure whats wrong?"
+"3YD0MU1NC2RBEUOZOZ3FI7WUS0IA7B","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3TE3O85731YYDUB4A0D85QZG8TN2R7","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:26:47 PDT 2016","Wed Apr 27 04:27:15 PDT 2016","Wed Apr 27 12:27:15 PDT 2016","","","","28","0% (0/0)","0% (0/0)","0% (0/0)","I have generated classified_predictions but the number of lines is not the same as in articles as thy say it should in part 5. Urls.txt and classified_predictions do have the same number of lines. Im not sure whats wrong?","I have created classified_predictions yet the quantity of lines is not the same as in articles as thy say it ought to a limited extent 5. Urls.txt and classified_predictions do have the same number of lines. Im not certain whats off-base?"
+"3BJKPTD2QC2QB97N3DS2ITDMH1WRTB","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3S4AW7T80C8XDAVE9UZ0CTNFMFGL4I","A5DOD116124LU","Approved","Tue Apr 26 21:05:06 PDT 2016","Tue Apr 26 21:08:53 PDT 2016","Wed Apr 27 05:08:53 PDT 2016","2016-04-27 12:10:16 UTC","","","227","100% (1/1)","100% (1/1)","100% (1/1)","<p>Hi Everyone!</p>
+<p></p>
+<p>We just sent everyone emails about your peer grading assignment. You are required to watch 3 videos and fill out a questionnaire for each video. You'll also be asked to rank the three videos in a separate questionnaire.</p>
+<p>All the information you need is in that email. The email was sent from "";nets213@;seas.upenn.edu"";. Please check your spam in case you don't find the email in your inbox.</p>
+<p></p>","Hello all, 
+emails were sent to everyone with information about peer grading assignments.  You must view 3 videos, complete accompanying questionnaire for each and rank videos in a separate questionnaire.  Please note that ll information needed is in that email sent from "";nets213@;seas.upenn.edu"" - be sure to check your spam box if you have yet to receive email."
+"3BJKPTD2QC2QB97N3DS2ITDMH1WRTB","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3ZY8KE4ISKT7YKU6LV8J25MM95XVQQ","A1QYU602WXPPMF","Approved","Tue Apr 26 20:12:18 PDT 2016","Tue Apr 26 20:14:11 PDT 2016","Wed Apr 27 04:14:11 PDT 2016","2016-04-27 11:15:19 UTC","","","113","100% (3/3)","100% (3/3)","100% (3/3)","<p>Hi Everyone!</p>
+<p></p>
+<p>We just sent everyone emails about your peer grading assignment. You are required to watch 3 videos and fill out a questionnaire for each video. You'll also be asked to rank the three videos in a separate questionnaire.</p>
+<p>All the information you need is in that email. The email was sent from "";nets213@;seas.upenn.edu"";. Please check your spam in case you don't find the email in your inbox.</p>
+<p></p>","Emails regarding your peer grading assignment have just been sent.  You are required to watch 3 videos and complete questionnaire for each.  Rankings will be done in a separate questionnaire.  Email sent from nets213@;seas.upenn.edu. Please check spam if email is not in your inbox."
+"3HEM8MA6H92S7GZG9HUI8T2KWCAPQ4","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","37XITHEISXZBBC367T2EH382KKYRC3","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:22:05 PDT 2016","Wed Apr 27 04:22:12 PDT 2016","Wed Apr 27 12:22:12 PDT 2016","","","","7","0% (0/0)","0% (0/0)","0% (0/0)","<p>I'm not sure why, but when I feed get_clean_text.py my list of urls, it's taking a really long time to run. My list of URLs isn't that long - about 2500 - so I don't know why it's taking so long? (Like, it's never finished...)</p>
+<p></p>
+<p>Thanks!</p>","I'm not certain why, but rather when I encourage get_clean_text.py my rundown of urls, it's taking a truly long time to run. My rundown of URLs isn't that long - around 2500 - so I don't know why it's taking so long? (Like, it's never finished...) 
+
+Much appreciated!"
+"3HEM8MA6H92S7GZG9HUI8T2KWCAPQ4","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:25 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:25 PDT 2016","","","3S3AMIZX3VVHA2K1PS7UCERY5JBCDM","ALVCEA155SL2V","Submitted","Wed Apr 27 05:57:38 PDT 2016","Wed Apr 27 05:58:38 PDT 2016","Wed Apr 27 13:58:38 PDT 2016","","","","60","0% (0/0)","0% (0/0)","0% (0/0)","<p>I'm not sure why, but when I feed get_clean_text.py my list of urls, it's taking a really long time to run. My list of URLs isn't that long - about 2500 - so I don't know why it's taking so long? (Like, it's never finished...)</p>
+<p></p>
+<p>Thanks!</p>","A program designed to rapidly go through a list or urls is taking too long."
+"30Z7M1Q8UYAFE8TIY4VLW7SP3KOA8Y","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","33OOO72IVIBORRGYBI79HI9K85PCTV","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:37:15 PDT 2016","Tue Apr 26 23:41:19 PDT 2016","Wed Apr 27 07:41:19 PDT 2016","2016-04-27 14:45:16 UTC","","","244","100% (10/10)","100% (10/10)","100% (10/10)","<p>I created a Powerpoint and recorded my voice to go along with it, but for some reason, when I export it as a .mov it gets corrupted and doesn't play the audio. I think it may be my inclusion of embedded screen recordings within the powerpoint itself, but I've been unable to find a solution. Would you accept a Dropbox or Drive link to the powerpoint and when you click "";Start Presentation,""; it'll run on its own accord with audio and all? Thanks!</p>","I made a recording of my voice to accompany a Powerpoint presentation, but the audio will not play after I export the presentation as a .mov. It somehow becomes corrupted. Despite thinking it might be because I used embedded screen recordings for the presentation, I am not able to solve the issue. Are you willing to accept a Drive or Dropbox link to the presentation? After you selected ""Start Presentation"", it will run on its own with audio included. Thank you."
+"30Z7M1Q8UYAFE8TIY4VLW7SP3KOA8Y","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3TY7ZAOG5GA5UGVV5T0XLQKNG38K0B","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:26:03 PDT 2016","Wed Apr 27 04:26:26 PDT 2016","Wed Apr 27 12:26:26 PDT 2016","","","","23","0% (0/0)","0% (0/0)","0% (0/0)","<p>I created a Powerpoint and recorded my voice to go along with it, but for some reason, when I export it as a .mov it gets corrupted and doesn't play the audio. I think it may be my inclusion of embedded screen recordings within the powerpoint itself, but I've been unable to find a solution. Would you accept a Dropbox or Drive link to the powerpoint and when you click "";Start Presentation,""; it'll run on its own accord with audio and all? Thanks!</p>","I made a Powerpoint and recorded my voice to oblige it, yet for reasons unknown, when I send out it as a .mov it gets tainted and doesn't play the sound. I think it might be my consideration of implanted screen recordings inside the powerpoint itself, yet I've been not able discover an answer. Would you acknowledge a Dropbox or Drive connection to the powerpoint and when you click "";Start Presentation,""; it'll keep running voluntarily with sound what not? Much obliged!"
+"3M93N4X8HKD8YLBV68E36XV951PSJW","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3SPJ033422T7GRLYVGBUC3EUDR3YJ7","AYZFD95XKXVZ4","Approved","Tue Apr 26 19:19:50 PDT 2016","Tue Apr 26 19:22:40 PDT 2016","Wed Apr 27 03:22:40 PDT 2016","2016-04-27 10:25:16 UTC","","","170","100% (5/5)","100% (5/5)","100% (5/5)","<p>Based on the instructions, the sample.txt file that we upload to CloudFlower should contain 500 positively labelled articles. In the screenshot at step 4 however the urls have a mix of both 0 and 1 labels. Which one is correct? And more generally, why are we having only the positive articles being labelled by crowdworkers?</p>","Based on the instructions, the sample.txt file that we upload to CloudFlower should contain 500 positively labelled articles. However, in the screen at step4, the urls are either labelled 1 or 0. Which one is correct, and is there a reason why Cloudflower needs to contain positievly labelled articles?"
+"3M93N4X8HKD8YLBV68E36XV951PSJW","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3W8CV64QJ3PWOKI0Z4GT195ORQQ9H0","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:46:10 PDT 2016","Tue Apr 26 23:54:19 PDT 2016","Wed Apr 27 07:54:19 PDT 2016","2016-04-27 14:55:16 UTC","","","489","100% (10/10)","100% (10/10)","100% (10/10)","<p>Based on the instructions, the sample.txt file that we upload to CloudFlower should contain 500 positively labelled articles. In the screenshot at step 4 however the urls have a mix of both 0 and 1 labels. Which one is correct? And more generally, why are we having only the positive articles being labelled by crowdworkers?</p>","According to the guidelines, the sample.txt file we are to upload onto CloudFlower must have 500 positively labelled articles; however, in the fourth step, the screenshot shows urls with both 0 and 1 labels. Which label is the correct one? Additionally and less specific, why are crowdworkers only being tasked to label positive articles?"
+"3MXX6RQ9EVVLIBCIBKN55Q1F0KRP4L","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","388U7OUMF8RRHK8QVD9UM261BVK0R2","A2U9B60MC0XH5J","Approved","Tue Apr 26 19:34:40 PDT 2016","Tue Apr 26 19:36:24 PDT 2016","Wed Apr 27 03:36:24 PDT 2016","2016-04-27 10:40:17 UTC","","","104","100% (1/1)","100% (1/1)","100% (1/1)","<p>If we had HITS rejected after we completed them, how do we see the requester's reason?</p>","How can we see a requester's reason for rejecting HITS that we have already completed?"
+"3MXX6RQ9EVVLIBCIBKN55Q1F0KRP4L","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3XLBSAQ9Z52E1MU1QTOGNKINSQPZ7A","A26Y58YECZUZZG","Approved","Wed Apr 27 02:56:42 PDT 2016","Wed Apr 27 02:57:03 PDT 2016","Wed Apr 27 10:57:03 PDT 2016","2016-04-27 18:00:16 UTC","","","21","100% (2/2)","100% (2/2)","100% (2/2)","<p>If we had HITS rejected after we completed them, how do we see the requester's reason?</p>","How can I find out why my HIT was rejected by a requester?"
+"3VEI3XUCZRNSJHEGMWJIDJCPSYCPR5","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","308Q0PEVB93WKFTK5MYE1L63R3PI9M","A2J9AHXZBB37XU","Approved","Tue Apr 26 18:19:53 PDT 2016","Tue Apr 26 18:20:39 PDT 2016","Wed Apr 27 02:20:39 PDT 2016","2016-04-27 09:25:19 UTC","","","46","100% (1/1)","100% (1/1)","100% (1/1)","<p>When our group tried to upload HITs  to the MTurk sandbox, we saw that we got a couple of failures. The number of failures went down after a little while, but we still ended up with a couple with the error as "";throttled"";. Is this normal behavior for the sandbox? I.e. do we need to worry about this when we actually upload our HITs (not to the sandbox)?</p>","Is it normal to get a throttle message when uploading HITs to MTurk Sandbox?"
+"3VEI3XUCZRNSJHEGMWJIDJCPSYCPR5","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","358UUM7WR0T5ZV8AGCU31HGOJ917RK","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:41:34 PDT 2016","Tue Apr 26 23:46:01 PDT 2016","Wed Apr 27 07:46:01 PDT 2016","2016-04-27 14:50:16 UTC","","","267","100% (10/10)","100% (10/10)","100% (10/10)","<p>When our group tried to upload HITs  to the MTurk sandbox, we saw that we got a couple of failures. The number of failures went down after a little while, but we still ended up with a couple with the error as "";throttled"";. Is this normal behavior for the sandbox? I.e. do we need to worry about this when we actually upload our HITs (not to the sandbox)?</p>","The group I belong to encountered some failures when attempting to upload HITs to the MTurk sandbox. Although the amount of failures decreased after some time, we ultimately still had a couple with "";throttled"" as the error. Does the sandbox normally have these issues? When our HITs are submitted regularly (not to the sandbox), will we receive the same error?"
+"33KGGVH24U79ZLHQATEK15GFQZQX14","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3JZQSN0I3R0RPYE2IKY3Q5FYFO9GF1","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:54:24 PDT 2016","Tue Apr 26 23:56:29 PDT 2016","Wed Apr 27 07:56:29 PDT 2016","2016-04-27 15:00:16 UTC","","","125","100% (10/10)","100% (10/10)","100% (10/10)","In Part 1: Crawling the Web, step 1 has a code fragment that reads:
+
+ $ tar -xzvf asssignment5.tgz 
+
+This should read:
+
+tar -xzvf assignment5.tgz","A fragment of code from step one of ""Part 1: Crawling the Web"" states: ""$ tar -xzvf asssignment5.tgz"" whereas is should be: ""tar -xzvf assignment5.tgz"""
+"33KGGVH24U79ZLHQATEK15GFQZQX14","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3UN61F00HXFQCRURSJF63X2SS365R3","A109DH65MXHL0Q","Approved","Tue Apr 26 23:49:47 PDT 2016","Tue Apr 26 23:53:37 PDT 2016","Wed Apr 27 07:53:37 PDT 2016","2016-04-27 14:55:16 UTC","","","230","100% (12/12)","100% (12/12)","100% (12/12)","In Part 1: Crawling the Web, step 1 has a code fragment that reads:
+
+ $ tar -xzvf asssignment5.tgz 
+
+This should read:
+
+tar -xzvf assignment5.tgz","In  Part 1: Crawling  the Web , Step I  has  a  code fragment that reads  the following $ tar-xzvf  assignments5.tgz. This  should be  read  as tar- xzvf assignments5.tgz"
+"3SBNLSTU6UVSWBXHR4M0ZSXZNWRZDT","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3HL8HNGX46RCAORU4ESTYOTBBBDF98","A109DH65MXHL0Q","Approved","Tue Apr 26 23:45:31 PDT 2016","Tue Apr 26 23:49:41 PDT 2016","Wed Apr 27 07:49:41 PDT 2016","2016-04-27 14:50:16 UTC","","","250","100% (12/12)","100% (12/12)","100% (12/12)","<p>I am an OS X user, and have graphviz installed. However after uncommenting the decision tree, I'm getting the error "";sh: dot command not found"";. Is there anything that I can do about this?</p>","I  am OS X  user and I have installed graphic viz. However  after uncommenting  the decision tree. I'm  getting the error ""sh: dot command not found""  Is  anything  else can I  do about?"
+"3SBNLSTU6UVSWBXHR4M0ZSXZNWRZDT","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3LRKMWOKB677FLXVKH7LRT1FHAXZ2O","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:27:55 PDT 2016","Tue Apr 26 23:30:05 PDT 2016","Wed Apr 27 07:30:05 PDT 2016","2016-04-27 14:30:16 UTC","","","130","100% (10/10)","100% (10/10)","100% (10/10)","<p>I am an OS X user, and have graphviz installed. However after uncommenting the decision tree, I'm getting the error "";sh: dot command not found"";. Is there anything that I can do about this?</p>","I use OS X and installed graphviz. After I un-commented the decision tree, I received the error "";sh: dot command not found"". What am I able to do to fix this?"
+"3XUSYT70ITRVUQRRNA98TTUD5P9D0G","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3DBQWDE4Y7O5XT2ZZCYPUDXIR6ON54","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:26:26 PDT 2016","Wed Apr 27 04:26:46 PDT 2016","Wed Apr 27 12:26:46 PDT 2016","","","","20","0% (0/0)","0% (0/0)","0% (0/0)","<p>Today, I reset my Snapchat password and discovered something very interesting. Instead of doing the traditional "";type the letters you see in the box below""; CAPTCHA, Snapchat's equivalent was asking me "";Which of the following are pictures of mountains?""; and displaying 9 images above that text, some of which were mountains and some of which were not. Now, I assume that they knew that some of those were definitely mountains ("";gold labels"";) but, correct me if I'm wrong, I believe they were using me to help label their images for free, and I, as the "";contributor,""; did not have much choice since I forgot my password. Genius!</p>","Today, I reset my Snapchat secret word and found something extremely fascinating. Rather than doing the conventional "";sort the letters you find in the container underneath""; CAPTCHA, Snapchat's proportionate was soliciting me "";Which from the accompanying are pictures of mountains?""; and showing 9 pictures over that content, some of which were mountains and some of which were definitely not. Presently, I expect that they realized that some of those were unquestionably mountains ("";gold names"";) be that as it may, right me in case I'm wrong, I trust they were utilizing me to mark their pictures for nothing, and I, as the "";patron,""; did not have much decision since I overlooked my watchword. Virtuoso!"
+"3XUSYT70ITRVUQRRNA98TTUD5P9D0G","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3PJ71Z61R5SLK9XMXFD89MPHA1R91Y","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:17:03 PDT 2016","Tue Apr 26 22:17:35 PDT 2016","Wed Apr 27 06:17:35 PDT 2016","2016-04-27 13:20:19 UTC","","","32","100% (9/9)","100% (9/9)","100% (9/9)","<p>Today, I reset my Snapchat password and discovered something very interesting. Instead of doing the traditional "";type the letters you see in the box below""; CAPTCHA, Snapchat's equivalent was asking me "";Which of the following are pictures of mountains?""; and displaying 9 images above that text, some of which were mountains and some of which were not. Now, I assume that they knew that some of those were definitely mountains ("";gold labels"";) but, correct me if I'm wrong, I believe they were using me to help label their images for free, and I, as the "";contributor,""; did not have much choice since I forgot my password. Genius!</p>","Instead of a Captcha, Snapchat had me categorize an image to recover my password."
+"3WGCNLZJKFYV1FC9JTD87YDNAHFD1J","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","32XVDSJFP0N7GEYC5SHRJR5626FM2U","A109DH65MXHL0Q","Approved","Tue Apr 26 23:33:26 PDT 2016","Tue Apr 26 23:36:23 PDT 2016","Wed Apr 27 07:36:23 PDT 2016","2016-04-27 14:40:16 UTC","","","177","100% (12/12)","100% (12/12)","100% (12/12)","<p>RESOLVED:</p>
+<p></p>
+<p>CCB had this answer in response to the "";dot command not found""; post:</p>
+<p></p>
+<blockquote>
+<p>I believe that those packages are just for outputting things to graphviz format from python.   You also need to install graphviz itself by downloading it  <a href=""http://graphviz.org/Download.php"" target=""_blank"">here</a>.</p>
+<p></p>
+</blockquote>","I  believe  that these packages  are just to output things to graph viz  format from python. you should  install  graph viz by downloading it here."
+"3WGCNLZJKFYV1FC9JTD87YDNAHFD1J","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3VFJCI1K40POSOJB9FYX7UTHIC7GRJ","AYZFD95XKXVZ4","Approved","Tue Apr 26 19:25:54 PDT 2016","Tue Apr 26 19:27:31 PDT 2016","Wed Apr 27 03:27:31 PDT 2016","2016-04-27 10:30:18 UTC","","","97","100% (5/5)","100% (5/5)","100% (5/5)","<p>RESOLVED:</p>
+<p></p>
+<p>CCB had this answer in response to the "";dot command not found""; post:</p>
+<p></p>
+<blockquote>
+<p>I believe that those packages are just for outputting things to graphviz format from python.   You also need to install graphviz itself by downloading it  <a href=""http://graphviz.org/Download.php"" target=""_blank"">here</a>.</p>
+<p></p>
+</blockquote>","With regards to the "";dot command not found""; post, CCB had a resolution:  The packages are for output of python files to graphviz format. Install graphviz by downloading it here."
+"3P458N04Q17GO6ZMTXEY6OQKI54X2L","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","36PW28KO40MY9T1319MNC1JV5SHEA5","A109DH65MXHL0Q","Approved","Tue Apr 26 23:59:32 PDT 2016","Wed Apr 27 00:06:58 PDT 2016","Wed Apr 27 08:06:58 PDT 2016","2016-04-27 15:10:17 UTC","","","446","100% (12/12)","100% (12/12)","100% (12/12)","<p>Hi,</p>
+<p></p>
+<p>I emailed the course staff, but I'm not sure if my email went through. I just wanted to write to you to let you know what I woke up with a stomach bug today and so I don't think I will be able to attend class. If there is attendance taken in class, will I be excused from it?</p>
+<p></p>
+<p>Best,</p>
+<p>Ben</p>","Hi,
+I  had  emailed the  course  staff, but I'm not sure if the email went through. I just wanted to
+write to you to let you know that I woke up with a stomach bug today so I  will not be able to
+attend  the class.If  there  is  attendance in class  would I be  excused from that?
+Best,
+Ben"
+"3P458N04Q17GO6ZMTXEY6OQKI54X2L","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","38F5OAUN5O2SA1U7K7I9NDEIW0ZH7T","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:19:23 PDT 2016","Tue Apr 26 22:20:07 PDT 2016","Wed Apr 27 06:20:07 PDT 2016","2016-04-27 13:20:19 UTC","","","44","100% (9/9)","100% (9/9)","100% (9/9)","<p>Hi,</p>
+<p></p>
+<p>I emailed the course staff, but I'm not sure if my email went through. I just wanted to write to you to let you know what I woke up with a stomach bug today and so I don't think I will be able to attend class. If there is attendance taken in class, will I be excused from it?</p>
+<p></p>
+<p>Best,</p>
+<p>Ben</p>","I'm sick today and won't be in class. Can I have an excused absence?"
+"3PZDSVZ3J57LFQ05V5AD11WK05RN4O","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","34FNN24DCNZZ9S6D6E70BTVPVQK5Y4","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:30:10 PDT 2016","Tue Apr 26 23:31:53 PDT 2016","Wed Apr 27 07:31:53 PDT 2016","2016-04-27 14:35:16 UTC","","","103","100% (10/10)","100% (10/10)","100% (10/10)","<p>If you'd like to discuss  Al Filries' lecture about MOOC's, let's use this discussion thread.</p>
+<p></p>
+<p>Here's a link to  his <a href=""https://www.coursera.org/course/modernpoetry"" target=""_blank"">ModPo Coursera course</a>.</p>
+<p></p>","This is a link to a thread for those wishing to discuss Al Filries' MOOC's lecture: ModPo Coursera course."
+"3PZDSVZ3J57LFQ05V5AD11WK05RN4O","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3PDJHANYK66961G21XDHHZEM1PFH6U","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:18:19 PDT 2016","Tue Apr 26 22:19:04 PDT 2016","Wed Apr 27 06:19:04 PDT 2016","2016-04-27 13:20:19 UTC","","","45","100% (9/9)","100% (9/9)","100% (9/9)","<p>If you'd like to discuss  Al Filries' lecture about MOOC's, let's use this discussion thread.</p>
+<p></p>
+<p>Here's a link to  his <a href=""https://www.coursera.org/course/modernpoetry"" target=""_blank"">ModPo Coursera course</a>.</p>
+<p></p>","Here's a link to Al Filries' ModPo course. Thoughts on his lecture on MOOCs?"
+"37AQKJ12TXE3ROKF72XXI8E45MTTTQ","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3CN4LGXD5YEHD92DS9OQ61PBVUEY4H","AXI30LCLYYBTJ","Approved","Tue Apr 26 19:34:48 PDT 2016","Tue Apr 26 19:37:10 PDT 2016","Wed Apr 27 03:37:10 PDT 2016","2016-04-27 10:40:17 UTC","","","142","100% (2/2)","100% (2/2)","100% (2/2)","<p>Hello,</p>
+<p></p>
+<p>My name is Arjun Sastry and I'm a junior in Wharton. I'm looking for someone to work on the homeworks with. Please let me know ASAP if you would like to work together! My email is <a href=""mailto:sastrya@;wharton.upenn.edu"">sastrya@;wharton.upenn.edu</a>. Thanks for your consideration.</p>
+<p></p>
+<p></p>","Hi, 
+I am a junior at Wharton and my name is Arjun Sastry. I'm looking for someone to study with. Please let me soon if you would like to work together. Here is my email: sastrya@wharton.upenn.edu. Thank you for considering."
+"37AQKJ12TXE3ROKF72XXI8E45MTTTQ","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3GS6S824SRNZACHJVDLYKDAVB37NW0","AWPB6NLJY46J6","Approved","Tue Apr 26 19:04:36 PDT 2016","Tue Apr 26 19:06:06 PDT 2016","Wed Apr 27 03:06:06 PDT 2016","2016-04-27 10:10:16 UTC","","","90","100% (3/3)","100% (3/3)","100% (3/3)","<p>Hello,</p>
+<p></p>
+<p>My name is Arjun Sastry and I'm a junior in Wharton. I'm looking for someone to work on the homeworks with. Please let me know ASAP if you would like to work together! My email is <a href=""mailto:sastrya@;wharton.upenn.edu"">sastrya@;wharton.upenn.edu</a>. Thanks for your consideration.</p>
+<p></p>
+<p></p>","Hello, my name is Arjun Sastry. I'm a junior at Wharton and I'm looking for a partner to do homework with. Let me know if you'd like to work together! My email is sastrya@;wharton.upenn.edu. I look forward to hearing from you!"
+"3HRWUH63QUS3B9459ATN6T2Y01MN5T","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","37C0GNLMHGTSULB0F1URQEZO9XO6DC","A109DH65MXHL0Q","Approved","Tue Apr 26 23:08:51 PDT 2016","Tue Apr 26 23:15:31 PDT 2016","Wed Apr 27 07:15:31 PDT 2016","2016-04-27 14:20:16 UTC","","","400","100% (12/12)","100% (12/12)","100% (12/12)","<p>I just realized that, for some of my test questions, a lot of workers complained that the answers I gave were wrong or lacked concrete instructions. Some of them asked me to "";make corrections""; to the test questions and "";fix their accuracy"";. How would I go about doing this?  </p>
+<p></p>
+<p>Looking back, maybe my answers to the test questions were incorrect.</p>","I  just realized that some of my test questions were wrong as lot of workers complained that
+the answers I gave were wrong and lacked concrete instructions.Some asked for corrections so
+How  would I  go about doing this?
+After  looking back maybe my answers to the test questions were wrong."
+"3HRWUH63QUS3B9459ATN6T2Y01MN5T","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3HL8HNGX46RCAORU4ESTYOTBBBK9F9","AOX14OUGGBMNF","Approved","Wed Apr 27 03:12:16 PDT 2016","Wed Apr 27 03:16:00 PDT 2016","Wed Apr 27 11:16:00 PDT 2016","2016-04-27 18:20:17 UTC","","","224","100% (2/2)","100% (2/2)","100% (2/2)","<p>I just realized that, for some of my test questions, a lot of workers complained that the answers I gave were wrong or lacked concrete instructions. Some of them asked me to "";make corrections""; to the test questions and "";fix their accuracy"";. How would I go about doing this?  </p>
+<p></p>
+<p>Looking back, maybe my answers to the test questions were incorrect.</p>","In response to complaints I have reviewed the test questions and discovered some answers were incorrect.  Some workers have asked me to correct this but I am unsure how to do so.  Please advise."
+"3RQVKZ7ZRK9M9RTVBKA0CPDWGCQ27W","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","30LSNF239VLLKV8LKDJZRYYPLXJI2Y","A15ULXONZUA4PN","Approved","Tue Apr 26 19:19:36 PDT 2016","Tue Apr 26 19:20:34 PDT 2016","Wed Apr 27 03:20:34 PDT 2016","2016-04-27 10:25:16 UTC","","","58","100% (2/2)","100% (2/2)","100% (2/2)","<p>Hi,  </p>
+<p></p>
+<p>I resubmitted my questionnaire and just wanted to make sure that the correct information was recorded. The second, more recent submission should be considered.  </p>
+<p></p>
+<p>Thanks,</p>
+<p>Sarah Tang</p>
+<p>PennKey: sartang</p>","I submitted my questionnaire twice and wanted to make sure that the more recent version was used."
+"3RQVKZ7ZRK9M9RTVBKA0CPDWGCQ27W","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","340UGXU9DZRZQD1N24SOC6JBCQZVUR","A2AEAGCGR9MF1E","Approved","Tue Apr 26 19:20:34 PDT 2016","Tue Apr 26 19:21:27 PDT 2016","Wed Apr 27 03:21:27 PDT 2016","2016-04-27 10:25:16 UTC","","","53","100% (4/4)","100% (4/4)","100% (4/4)","<p>Hi,  </p>
+<p></p>
+<p>I resubmitted my questionnaire and just wanted to make sure that the correct information was recorded. The second, more recent submission should be considered.  </p>
+<p></p>
+<p>Thanks,</p>
+<p>Sarah Tang</p>
+<p>PennKey: sartang</p>","Hi,
+
+I am writing to ensure that my second and correct submission of the questionnaire is recorded.
+
+Thanks,
+
+Sarah Tang
+
+PennKey: sartang"
+"3M67TQBQQHEFSDCS3W1ZW3N0NQ6A9N","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3K772S5NP91DJG9H7FWFTN6ZINVHE7","A15ULXONZUA4PN","Approved","Tue Apr 26 19:25:42 PDT 2016","Tue Apr 26 19:25:47 PDT 2016","Wed Apr 27 03:25:47 PDT 2016","2016-04-27 10:30:18 UTC","","","5","100% (2/2)","100% (2/2)","100% (2/2)","<p>Hi, so over the weekend I got a concussion and I am not supposed to be leaving my dorm to go to class these next few days, but I've been following along today online with the firearm violence lecture notes. I just received the email that we would be getting participation codes for attending today's lecture. Obviously, I would have liked to be there if I could but is there anyway I could get one of those codes for following along online? I could send a picture of the doctor's note stating that I got a concussion if you need proof about that.</p>
+<p></p>
+<p>Thanks and sorry for the inconvenience,</p>
+<p></p>
+<p>Aspyn  Palatnick</p>","Hi, I got a concussion over the weekend and am not supposed to leave my dorm for the next few days, so I've been following class online with the lecture notes.  However, I just received the email stating that we would be getting participation codes for attending today's lecture.  Is there any way I could get a code for following along online?  I can provide a doctor's note if needed."
+"3M67TQBQQHEFSDCS3W1ZW3N0NQ6A9N","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3ZDAD0O1T23CUPRT2E3WVVUU9N0TX1","A2AEAGCGR9MF1E","Approved","Tue Apr 26 19:25:47 PDT 2016","Tue Apr 26 19:26:02 PDT 2016","Wed Apr 27 03:26:02 PDT 2016","2016-04-27 10:30:18 UTC","","","15","100% (4/4)","100% (4/4)","100% (4/4)","<p>Hi, so over the weekend I got a concussion and I am not supposed to be leaving my dorm to go to class these next few days, but I've been following along today online with the firearm violence lecture notes. I just received the email that we would be getting participation codes for attending today's lecture. Obviously, I would have liked to be there if I could but is there anyway I could get one of those codes for following along online? I could send a picture of the doctor's note stating that I got a concussion if you need proof about that.</p>
+<p></p>
+<p>Thanks and sorry for the inconvenience,</p>
+<p></p>
+<p>Aspyn  Palatnick</p>","Hi, I will not be able to attend class today due to a concussion. I have been following along with today's lecture. I was wondering if I could possibly receive the codes that was handed to students for attending today's lecture. If you would like, I can email you a picture of my doctor's note stating that I ,in fact, have a concussion.
+
+Thanks and sorry for the inconvenience,
+
+Aspyn Palatnick"
+"3SZYX62S5GQE8OCIT3CYAWG80MH752","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","32UTUBMZ7HMKUESH2DBT7GRNN54VBM","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:56:52 PDT 2016","Wed Apr 27 00:02:14 PDT 2016","Wed Apr 27 08:02:14 PDT 2016","2016-04-27 15:05:16 UTC","","","322","100% (10/10)","100% (10/10)","100% (10/10)","<p>What exactly is meant by the words in the "";red""; reviews that DO NOT appear in the "";white""; reviews? Does this mean we should not count a word that appears in a red review and at least one  white review? Or is this simply a check for reviews that have both "";red""; and "";white""; in them (and thus we can't classify the words as either red or white)?  </p>","Concerning words that appear in the red reviews but are not in the white ones, are we not supposed to consider a word that is in both a red and one or more white reviews? Or rather is a way to scan for reviews that contain red and white and cannot be classified as either red or white because of this?"
+"3SZYX62S5GQE8OCIT3CYAWG80MH752","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3RYC5T2D74JU51CACYOK1379J3ERPI","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:22:27 PDT 2016","Wed Apr 27 04:22:50 PDT 2016","Wed Apr 27 12:22:50 PDT 2016","","","","23","0% (0/0)","0% (0/0)","0% (0/0)","<p>What exactly is meant by the words in the "";red""; reviews that DO NOT appear in the "";white""; reviews? Does this mean we should not count a word that appears in a red review and at least one  white review? Or is this simply a check for reviews that have both "";red""; and "";white""; in them (and thus we can't classify the words as either red or white)?  </p>","What precisely is implied by the words in the "";red""; surveys that DO NOT show up in the "";white""; audits? Does this mean we ought not include a word that shows up a red audit and no less than one white survey? On the other hand is it true that this is essentially a check for surveys that have both "";red""; and "";white""; in them (and in this way we can't order the words as either red or white)?"
+"3I01FDIL6MY2Q0U52XDMCHNS2NTD20","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3IGI0VL648AR538H4RUO3JX981CONT","A1QYU602WXPPMF","Approved","Tue Apr 26 20:02:31 PDT 2016","Tue Apr 26 20:06:17 PDT 2016","Wed Apr 27 04:06:17 PDT 2016","2016-04-27 11:10:18 UTC","","","226","100% (3/3)","100% (3/3)","100% (3/3)","<p>Hi everyone,</p>
+<p></p>
+<p>Grades for the first assignment have been emailed to your Penn email addresses. If you did not receive an email with your grade (and have checked your spam folder), please reach out to me immediately so we can resolve it. Overall, we were very happy with your participation and takeaways from your experience as crowdworkers. You can expect your grades for the second assignment very soon as well, and we encourage you to incorporate any feedback on your company profile into the video (Ellie's post on takeaways for the entire course will also be helpful for this).  </p>
+<p></p>
+<p>If you have questions about your grade, please don't respond directly to the score email. You'll get a much better response time if you post privately to Piazza or email the entire teaching staff at <a href=""mailto:nets213@;googlegroups.com"">nets213-staff@;googlegroups.com</a>.  </p>
+<p></p>
+<p>We'll be getting the next few assignments out to you as soon as possible so that you can assess how the class is going.  One upcoming date to be aware of is the drop deadline on February 19th. If you are concerned about how you are doing at any point, please talk to a member of the teaching staff.  </p>","Hi everyone,
+
+First assignment grades have been emailed to your Penn email address.  If you did not receive the email, please let me know.  Second assignment grades are forthcoming.  Please incorporate feedback on your company profile into the video.  
+
+If you have any questions, please post them privately to Piazza or email the teaching staff at nets213-staff@:googlegroups.com.
+
+Next assignments will sent soon.  Drop deadline is February 19th.  For any concerns about how you are doing, please talk to a staff member."
+"3I01FDIL6MY2Q0U52XDMCHNS2NTD20","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3Y54SXRO1MBKDLXYX9S9BOVQF52TUS","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:23:07 PDT 2016","Wed Apr 27 04:23:56 PDT 2016","Wed Apr 27 12:23:56 PDT 2016","","","","49","0% (0/0)","0% (0/0)","0% (0/0)","<p>Hi everyone,</p>
+<p></p>
+<p>Grades for the first assignment have been emailed to your Penn email addresses. If you did not receive an email with your grade (and have checked your spam folder), please reach out to me immediately so we can resolve it. Overall, we were very happy with your participation and takeaways from your experience as crowdworkers. You can expect your grades for the second assignment very soon as well, and we encourage you to incorporate any feedback on your company profile into the video (Ellie's post on takeaways for the entire course will also be helpful for this).  </p>
+<p></p>
+<p>If you have questions about your grade, please don't respond directly to the score email. You'll get a much better response time if you post privately to Piazza or email the entire teaching staff at <a href=""mailto:nets213@;googlegroups.com"">nets213-staff@;googlegroups.com</a>.  </p>
+<p></p>
+<p>We'll be getting the next few assignments out to you as soon as possible so that you can assess how the class is going.  One upcoming date to be aware of is the drop deadline on February 19th. If you are concerned about how you are doing at any point, please talk to a member of the teaching staff.  </p>","Greetings everybody, 
+
+Grades for the principal task have been messaged to your Penn email addresses. On the off chance that you didn't get an email with your evaluation (and have checked your spam envelope), please connect with me quickly so we can resolve it. Generally speaking, we were extremely content with your interest and takeaways from your experience as crowdworkers. You can expect your evaluations for the second task soon too, and we urge you to fuse any criticism on your organization profile into the video (Ellie's post on takeaways for the whole course will likewise be useful for this). 
+
+On the off chance that you have questions about your evaluation, kindly don't react specifically to the score email. You'll show signs of improvement reaction time on the off chance that you present secretly on Piazza or email the whole showing staff at nets213-staff@;googlegroups.com. 
+
+We'll be getting the following couple of assignments out to you at the earliest opportunity with the goal that you can evaluate how the class is going. One up and coming date to know about is the drop due date on February nineteenth. In the event that you are worried about how you are getting along anytime, please converse with an individual from the educating staff."
+"3HEADTGN2PI5O1BC88SHJB17EMCRVR","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3CFVK00FWMBBSXZSSISF9R7TI6C6LE","A1NMWUK6TZG333","Approved","Tue Apr 26 18:24:43 PDT 2016","Tue Apr 26 18:25:17 PDT 2016","Wed Apr 27 02:25:17 PDT 2016","2016-04-27 09:30:17 UTC","","","34","100% (1/1)","100% (1/1)","100% (1/1)","<p>Could you provide some resources for learning how to build web apps from scratch?  </p>","Would you be able to give some resources on learning how to make we applications from the ground up?"
+"3HEADTGN2PI5O1BC88SHJB17EMCRVR","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:26 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:26 PDT 2016","","","3PZDLQMM0UBU7SMLS3NDGV0U8S02CH","AYZFD95XKXVZ4","Approved","Tue Apr 26 19:25:12 PDT 2016","Tue Apr 26 19:25:51 PDT 2016","Wed Apr 27 03:25:51 PDT 2016","2016-04-27 10:30:18 UTC","","","39","100% (5/5)","100% (5/5)","100% (5/5)","<p>Could you provide some resources for learning how to build web apps from scratch?  </p>","What are some resources as to how to build web apps?"
+"3KI0JD2ZU18ARSCWYMM322U8WHS76I","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","3E1QT0TDFQZW6AAA0US01PBS7XN8I3","A2P61X0ZGMSG3Z","Approved","Tue Apr 26 23:32:26 PDT 2016","Tue Apr 26 23:36:59 PDT 2016","Wed Apr 27 07:36:59 PDT 2016","2016-04-27 14:40:16 UTC","","","273","100% (10/10)","100% (10/10)","100% (10/10)","<p>It seems that my crowdflower_labels has 500 labels of yes only</p>
+<p>and my majority_vote_labels has 499 labels of yes and 1 label of no</p>
+<p></p>
+<p>So I have Pa=499/500</p>
+<p>Pe = 499/500 * 500/500 +; 1/500 * 0/500 = 499/500</p>
+<p></p>
+<p>k = (Pa-Pe)/(1-Pe) = (499/500-499/500)/(1-Pe) = 0</p>
+<p></p>
+<p>Does this seem correct?</p>
+<p>It doesn't seem to agree at all if it's 0 but then again, it agrees on 499/500 instances  </p>
+<p></p>
+<p>I also got 0 from both manual computation and running the script kappa.py</p>
+<p></p>","It would appear my crowdflower_labels is composed of 500 labels that only state ""yes"", also my majority_vote_labels is composed of 499 labels stating ""yes"", and 1 stating ""no"". 
+
+In summary: Pa=499/500
+
+Pe = 499/500 * 500/500 +; 1/500 * 0/500 = 499/500
+
+k = (Pa-Pe)/(1-Pe) = (499/500-499/500)/(1-Pe) = 0
+
+Is this correct to you? If it's 0, this does not appear to agree. However, it does agree on 499/500 instances. 
+
+Additionally, I ended up with 0 from not only manually computing, but running the script kappa.py as well."
+"3KI0JD2ZU18ARSCWYMM322U8WHS76I","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","3WMINLGALCTJCVHP5IGSMDJSKGBACF","A292UMB3VGZUS6","Submitted","Wed Apr 27 04:29:19 PDT 2016","Wed Apr 27 04:30:08 PDT 2016","Wed Apr 27 12:30:08 PDT 2016","","","","49","0% (0/0)","0% (0/0)","0% (0/0)","<p>It seems that my crowdflower_labels has 500 labels of yes only</p>
+<p>and my majority_vote_labels has 499 labels of yes and 1 label of no</p>
+<p></p>
+<p>So I have Pa=499/500</p>
+<p>Pe = 499/500 * 500/500 +; 1/500 * 0/500 = 499/500</p>
+<p></p>
+<p>k = (Pa-Pe)/(1-Pe) = (499/500-499/500)/(1-Pe) = 0</p>
+<p></p>
+<p>Does this seem correct?</p>
+<p>It doesn't seem to agree at all if it's 0 but then again, it agrees on 499/500 instances  </p>
+<p></p>
+<p>I also got 0 from both manual computation and running the script kappa.py</p>
+<p></p>","It appears that my crowdflower_labels has 500 marks of yes as it were 
+
+furthermore, my majority_vote_labels has 499 marks of yes and 1 name of no 
+
+So I have Pa=499/500 
+
+Pe = 499/500 * 500/500 +; 1/500 * 0/500 = 499/500 
+
+k = (Pa-Pe)/(1-Pe) = (499/500-499/500)/(1-Pe) = 0 
+
+Does this appear to be right? 
+
+It doesn't appear to concur at all on the off chance that it's 0 however on the other hand, it concedes to 499/500 cases 
+
+I likewise got 0 from both manual calculation and running the script kappa.py"
+"32LAQ1JNT9FIR1Z477N7N406O00TUH","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","35DR22AR5EA7V8TZNZX5DIQWFOWX3X","A1CCJL4HJJY58M","Approved","Tue Apr 26 22:19:19 PDT 2016","Tue Apr 26 22:19:23 PDT 2016","Wed Apr 27 06:19:23 PDT 2016","2016-04-27 13:20:19 UTC","","","4","100% (9/9)","100% (9/9)","100% (9/9)","It takes a really long time. Is that expected?","Does it normally take this long?"
+"32LAQ1JNT9FIR1Z477N7N406O00TUH","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","3MYYFCXHJ4XHRIHDY32KZ1I7QYM4GN","A2LY23NHYISUQ2","Approved","Tue Apr 26 18:56:57 PDT 2016","Tue Apr 26 18:57:17 PDT 2016","Wed Apr 27 02:57:17 PDT 2016","2016-04-27 10:00:16 UTC","","","20","100% (2/2)","100% (2/2)","100% (2/2)","It takes a really long time. Is that expected?","It takes a good while. Is that to be expected?"
+"3Z33IC0JC0CZK1FQERSVSQ1D807V99","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","3KKG4CDWKJO2C8U5KXWA7KWKMLR941","A2LY23NHYISUQ2","Approved","Tue Apr 26 18:56:20 PDT 2016","Tue Apr 26 18:56:50 PDT 2016","Wed Apr 27 02:56:50 PDT 2016","2016-04-27 10:00:16 UTC","","","30","100% (2/2)","100% (2/2)","100% (2/2)","<p>My crowdflower account doesn't have any funds yet    is it possible to share accounts just for this assignment?</p>","Even though my Crowdflower account has no funds can I share accounts for this assignment only?"
+"3Z33IC0JC0CZK1FQERSVSQ1D807V99","3PDAEG1VSLFZVQWX03BQ44ML5OM5UW","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","Paraphrasing Sentences/Questions","$0.10","Tue Apr 26 18:16:27 PDT 2016","2","BatchId:2372973;","3600","28800","Tue May 03 18:16:27 PDT 2016","","","3LEIZ60CDKPIF5IU5QM01G9TNGRZ90","A1XHFQKX09Y1RD","Approved","Tue Apr 26 18:25:59 PDT 2016","Tue Apr 26 18:27:19 PDT 2016","Wed Apr 27 02:27:19 PDT 2016","2016-04-27 09:30:17 UTC","","","80","100% (1/1)","100% (1/1)","100% (1/1)","<p>My crowdflower account doesn't have any funds yet    is it possible to share accounts just for this assignment?</p>","Can I share an account for one assignment because my own crowdflower account isn't funded yet?"

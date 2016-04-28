@@ -1,0 +1,47 @@
+user_question_title,user_question_body,user_selected_num,question_1_title,question_1_body,question_2_title,question_2_body,question_3_title,question_3_body,question_4_title,question_4_body,question_5_title,question_5_body
+Office hours,When will office hours be held this week? I can't find the schedule anywhere online.,3,Change in Office Hours,"<p>I&#39;ll be flying out for an interview this Thursday so I can&#39;t hold 12-2 OH that day.</p>
+<p>Instead I&#39;ll be in the 5th floor GRW bump space today from 6-8 if anyone has questions.</p>
+<p></p>
+<p>Sorry about the short notice.</p>
+<p></p>
+<p>-Jim</p>",Ellie&#39;s Office Hours today,"<p>Hi everyone,</p>
+<p></p>
+<p>I will be holding virtual office hours today from 4-6. If you want help during that time, sign up by putting your name and gmail address in this spreadsheet, and I will call you on Google Hangouts when its your turn. </p>
+<p></p>
+<p>https://docs.google.com/spreadsheets/d/1enes4IDPyfWzub-1utWUSrrc9a_iNU760HARY2ymqYc/edit?usp=sharing</p>
+<p></p>
+<p>This will be an experiment. If it works well, it will allow me to hold office hours regularly on Thursdays (when demand is probably higher) as opposed to Friday right before class (which is probably a very stressful time to be coming to OH). Plus, you don&#39;t have to leave the comfort of your dorm room. So wins all around. :-) </p>
+<p></p>
+<p>--Ellie</p>
+<p></p>
+<p><br /></p>",Office Hours,"Hey everyone,<div><br /></div><div>I&#39;ll have office hours starting today at 2:15 PM in the bump space.</div>",Using Office Hours and Piazza,"<p>Hey All,</p>
+<p></p>
+<p>So there have been a lot of questions on Piazza regarding errors and incompatibility issues. I&#39;ve outlined a few suggestions below to make your life easier with regards getting through them.</p>
+<p></p>
+<p><strong>1. Using Piazza.</strong></p>
+<p></p>
+<p>Remotely debugging system issues are pretty challenging. To ensure that we can get an answer to you faster - please specify (a) The System you&#39;re using (Mac, Windows, Linux etc.) and how many bits (b) Which installer you used (Pip vs. Conda) (c) If you&#39;re running the VM or not. </p>
+<p></p>
+<p><strong>2. Search through Piazza</strong></p>
+<p></p>
+<p>More often than not the answer is already there on Piazza. Try and look through previous questions (especially ones endorsed by an instructor) to see if that solves your problem.</p>
+<p></p>
+<p><strong>3. Using Stack Overflow</strong></p>
+<p></p>
+<p>The best way to learn cool things and debug issues is to use the power of Crowdsourcing! Stack Overflow will definitely have the answer to your questions. As you take more advanced classes you&#39;ll need StackOverflow to try and debug more complicated issues so it will be super useful to get a head start right now. If you&#39;re ever in doubt of what StackOverflow is asking you to do - feel free to post the link and ask on Piazza.</p>
+<p></p>
+<p><strong>4. Using the VM</strong></p>
+<p><strong></strong></p>
+<p></p>
+<p>Sometimes it makes more sense to just use a different platform which is pre-configured instead of trying to figure out why it doesn&#39;t work on your system. So I&#39;d suggest to everyone to use the VM. It&#39;s also super useful to get a hang of Linux (it&#39;s a rite of passage of sorts for any CS student). </p>
+<p></p>
+<p><strong>5. Office Hours</strong></p>
+<p><strong></strong></p>
+<p>Chances are if the above 3 haven&#39;t helped, Office Hours are the place to go. There are plenty spread throughout the week and more often than not you&#39;ll have at least one friendly NETS 213 TA hanging around Engineering - So swing by Office hours! </p>
+<p></p>
+<p>#pin</p>
+<p></p>",Office Hours moved,"<p>Hi all,</p>
+<p></p>
+<p>I&#39;m moving my office hours from 5-7 to 6-8 tonight. Sorry for any inconvenience. </p>
+<p></p>
+<p>-Ross</p>"
