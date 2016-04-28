@@ -65,7 +65,8 @@ To simulate large amounts of inputs (queries) to the code, we developed a script
 - 3. Determines which cluster the query appears in
 - 4. Records the most relevant results in the cluster to the query (relevance determined by tf-idf)
 - 5. Randomly chooses one of the most relevant results to be "selected by the user" as most similar to the query
-- 6. Repeats the process until all available queries (or a predetermined number of those queries) have been processed.
+- 6. Repeats the process until all available queries (or a predetermined number of those queries) have been processed
+- 7. Outputs a file containing the simulated data (currently titled 'query_cluster.simulated.csv')
 
 The list of available queries will either be all of the questions from the piazza dump or all of the paraphrased questions we received from the crowd.
 ##### csvToGraphData and donutChart.html
