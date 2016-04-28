@@ -32,11 +32,11 @@ def main():
 	#fill in the frequencies of each value
 	for vote in vals:
 		if vals[vote] not in histogram:
-			histogram[vals[vote]] = 1
-		else: histogram[vals[vote]] += 1
+			histogram[vals[vote]] = 0
+		histogram[vals[vote]] = histogram[vals[vote]] + 1
 	#print the frequency for each value
-	for value in histogram:
-		print(str(value) + "\t" + str(histogram[value]))
+	for i in range(0,6):
+		print(str(i) + "\t" + str(histogram[str(i)]))
 
 #majority vote of the integers
 def maj(input):
