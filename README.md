@@ -66,6 +66,7 @@ To simulate large amounts of inputs (queries) to the code, we developed a script
 - 4. Records the most relevant results in the cluster to the query (relevance determined by tf-idf)
 - 5. Randomly chooses one of the most relevant results to be "selected by the user" as most similar to the query
 - 6. Repeats the process until all available queries (or a predetermined number of those queries) have been processed.
+
 The list of available queries will either be all of the questions from the piazza dump or all of the paraphrased questions we received from the crowd.
 ##### csvToGraphData and donutChart.html
 To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.  The chart can be found in DonutChart.png.
