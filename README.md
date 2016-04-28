@@ -60,12 +60,12 @@ NOTE: The tutorial at http://brandonrose.org/clustering was followed very closel
 To determine the accuracy of our algorithm and to improve upon said accuracy, we use workers on Crowdflower to validate the results. Each crowdworker is presented with a query question (asked by a user of our system) and a set of five questions from the cluster that the query question part of. Then, the worker determines which question the query question is most similar to (or if the query question is not similar to any of them) and we use this to validate the output of our algorithm. Looking forward, we will feed these inputs into our algorithm to build a semi-supervised crowd-sourced clustering algorithm.
 ##### Simulation
 To simulate large amounts of inputs (queries) to the code, we developed a script that 
-1. Picks a query string from the list of available queries
-2. Creates the clusters
-3. Determines which cluster that query appears in
-4. Displays the most relevant results in the cluster to the query (relevance determined by tf-idf)
-5. Randomly chooses a result as most relevant
-6. Repeat a process until all available queries (or a predetermined number of those queries) have been processed
+- 1. Picks a query string from the list of available queries
+- 2. Creates the clusters based on the input data
+- 3. Determines which cluster the query appears in
+- 4. Records the most relevant results in the cluster to the query (relevance determined by tf-idf)
+- 5. Randomly chooses one of the most relevant results to be "selected by the user" as most similar to the query
+- 6. Repeats the process until all available queries (or a predetermined number of those queries) have been processed.
 The list of available queries will either be all of the questions from the piazza dump or all of the paraphrased questions we received from the crowd.
 ##### csvToGraphData and donutChart.html
 To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.  The chart can be found in DonutChart.png.
