@@ -59,7 +59,7 @@ NOTE: The tutorial at http://brandonrose.org/clustering was followed very closel
 ###### Crowdsourcing
 To determine the accuracy of our algorithm and to improve upon said accuracy, we use workers on Crowdflower to validate the results. Each crowdworker is presented with a query question (asked by a user of our system) and a set of five questions from the cluster that the query question part of. Then, the worker determines which question the query question is most similar to (or if the query question is not similar to any of them) and we use this to validate the output of our algorithm. Looking forward, we will feed these inputs into our algorithm to build a semi-supervised crowd-sourced clustering algorithm.
 ##### csvToGraphData and donutChart.html
-To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.
+To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.  The chart can be found in DonutChart.png.
 ###### Running the code
 To run the code: 
 1. Install the dependencies, including json, csv, numpy, pandas, nltk
