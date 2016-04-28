@@ -1,4 +1,4 @@
-# README
+﻿# README
 #### MILESTONE A: Aggregation Module - Gather data from Piazza (4 points total) 
 - Scrape Piazza to gather data
   - Option 1: Use an unofficial api found here: https://github.com/hfaran/piazza-api (Preferable method)
@@ -58,6 +58,8 @@ To aggregate the inputted dump of piazza posts along with the user query, we tre
 NOTE: The tutorial at http://brandonrose.org/clustering was followed very closely for implementing the tokenizer and K-Means clustering. The code is publicly available and we use code directly from his tutorial to prepare the data for clustering and to perform the clustering.
 ###### Crowdsourcing
 To determine the accuracy of our algorithm and to improve upon said accuracy, we use workers on Crowdflower to validate the results. Each crowdworker is presented with a query question (asked by a user of our system) and a set of five questions from the cluster that the query question part of. Then, the worker determines which question the query question is most similar to (or if the query question is not similar to any of them) and we use this to validate the output of our algorithm. Looking forward, we will feed these inputs into our algorithm to build a semi-supervised crowd-sourced clustering algorithm.
+##### csvToGraphData and donutChart.html
+To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.
 ###### Running the code
 To run the code: 
 1. Install the dependencies, including json, csv, numpy, pandas, nltk
