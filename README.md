@@ -72,9 +72,17 @@ The list of available queries will either be all of the questions from the piazz
 ##### csvToGraphData and donutChart.html
 To aggregate the crowd results from crowdflower to crate our donut chart, we read in our results from crowdflower and computed the majority vote answer (0-5) for each HIT where 6 would be returned.  We compiled the frequencies for each value and printed them.  Using these frequences we created a donut chart by filling in the values for each result 0-5 in the GoogleAPI template in our file donutChart.html.  The chart can be found in DonutChart.png.
 ###### Running the code
-To run the code: 
+To run the code (purely command-line version): 
 1. Install the dependencies, including json, csv, numpy, pandas, nltk
 , sklearn 
 2. From the command line run 'python', 'import nltk', 'nltk.download()', and download punkt and stopwords 
 3. Run 'python query_cluster.py clean_output.json' from the unix terminal
+
+To run the code (GUI/command-line version):
+1. Install the dependencies, including json, csv, numpy, pandas, nltk
+, sklearn 
+2. From the command line run 'python', 'import nltk', 'nltk.download()', and download punkt and stopwords 
+3. Run 'python gui.py clean_output.json' from the unix terminal
+
+NOTE: The GUI version is slightly less comprehensive and does not create an output file. It more just follows our proof-of-concept idea and adds a nice visual to an otherwise command-line based program.
 #### Profit
