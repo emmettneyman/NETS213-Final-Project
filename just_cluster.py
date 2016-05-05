@@ -70,7 +70,7 @@ vocab_frame = pd.DataFrame({'words': totalvocab_tokenized}, index = totalvocab_s
 
 #define vectorizer parameters
 tfidf_vectorizer = TfidfVectorizer(max_df=0.5, max_features=500000,
-                                 min_df=0.001, stop_words='english',
+                                 min_df=0.01, stop_words='english',
                                  use_idf=True, tokenizer=tokenize_and_stem, ngram_range=(1,3))
 
 tfidf_matrix = tfidf_vectorizer.fit_transform(output) #fit the vectorizer to synopses
